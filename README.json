@@ -30,7 +30,7 @@
             "last_commit": "2026-08-24T08:56:48Z",
             "owner": "cartography-cncf",
             "repo": "cartography",
-            "stars": 4022
+            "stars": 4023
           }
         }
       ],
@@ -71,6 +71,49 @@
         }
       ],
       "title": "Account Management"
+    },
+    {
+      "description": "The whole authentication stack is based on cryptography primitives. This can't be overlooked.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Papers we love: Cryptography",
+          "description": "Foundational papers of cryptography.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 15204860,
+            "language": "Shell",
+            "last_commit": "2026-08-24T09:14:23Z",
+            "owner": "papers-we-love",
+            "repo": "papers-we-love",
+            "stars": 108966
+          }
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Awesome GUID",
+              "description": "Funny take on the global aspect of unique identifiers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 155501164,
+                "language": null,
+                "last_commit": "2022-04-16T05:03:43Z",
+                "owner": "secretGeek",
+                "repo": "AwesomeGUID",
+                "stars": 21
+              }
+            }
+          ],
+          "description": "Tokens, primary keys, UUIDs, … Whatever the end use, you'll have to generate these numbers with some randomness and uniqueness properties.",
+          "node_type": "group",
+          "title": "Identifiers"
+        }
+      ],
+      "title": "Cryptography"
     },
     {
       "description": "Zero trust network security operates under the principle “never trust, always verify”.",
@@ -320,7 +363,7 @@
             },
             {
               "node_type": "item",
-              "title": "",
+              "title": "lemur",
               "description": "🆓 Acts as a broker between CAs and environments, providing a central portal for developers to issue TLS certificates with 'sane' defaults.",
               "children": [],
               "repo_info": {
@@ -337,6 +380,28 @@
           "description": "Certificate-based authentication.",
           "node_type": "group",
           "title": "Public-Key Infrastructure (PKI)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Learn how to use JWT for Authentication",
+              "description": "Learn how to use JWT to secure your web app.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 30016822,
+                "language": "JavaScript",
+                "last_commit": "2026-08-15T13:48:35Z",
+                "owner": "dwyl",
+                "repo": "learn-json-web-tokens",
+                "stars": 4173
+              }
+            }
+          ],
+          "description": "JSON Web Token is a bearer's token.",
+          "node_type": "group",
+          "title": "JWT"
         }
       ],
       "title": "Password-less auth"
@@ -410,7 +475,7 @@
                 "last_commit": "2026-08-21T08:53:52Z",
                 "owner": "apache",
                 "repo": "casbin",
-                "stars": 20341
+                "stars": 20342
               }
             },
             {
@@ -581,6 +646,28 @@
           "description": "Tools and resources exclusively targeting the AWS IAM policies ecosystem.",
           "node_type": "group",
           "title": "AWS policy tools"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Gubernator",
+              "description": "🆓 High performance rate-limiting micro-service and library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 747435222,
+                "language": "Go",
+                "last_commit": "2026-07-25T00:08:20Z",
+                "owner": "gubernator-io",
+                "repo": "gubernator",
+                "stars": 168
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Other tools"
         }
       ],
       "title": "Authorization"
@@ -597,10 +684,10 @@
             "archived": false,
             "id": 11125589,
             "language": "Java",
-            "last_commit": "2026-08-24T12:58:11Z",
+            "last_commit": "2026-08-24T13:49:16Z",
             "owner": "keycloak",
             "repo": "keycloak",
-            "stars": 36373
+            "stars": 36376
           }
         },
         {
@@ -612,10 +699,10 @@
             "archived": false,
             "id": 230885748,
             "language": "Python",
-            "last_commit": "2026-08-24T12:46:06Z",
+            "last_commit": "2026-08-24T13:47:50Z",
             "owner": "goauthentik",
             "repo": "authentik",
-            "stars": 25121
+            "stars": 25122
           }
         },
         {
@@ -642,7 +729,7 @@
             "archived": false,
             "id": 247714750,
             "language": "Go",
-            "last_commit": "2026-08-24T11:55:39Z",
+            "last_commit": "2026-08-24T13:27:37Z",
             "owner": "zitadel",
             "repo": "zitadel",
             "stars": 14842
@@ -660,7 +747,7 @@
             "last_commit": "2026-08-22T09:03:05Z",
             "owner": "casdoor",
             "repo": "casdoor",
-            "stars": 14261
+            "stars": 14262
           }
         },
         {
@@ -716,7 +803,7 @@
         },
         {
           "node_type": "item",
-          "title": "",
+          "title": "gitleaks",
           "description": "🆓 Audit Git repos for secrets.",
           "children": [],
           "repo_info": {
@@ -726,7 +813,7 @@
             "last_commit": "2026-08-19T04:15:06Z",
             "owner": "gitleaks",
             "repo": "gitleaks",
-            "stars": 28933
+            "stars": 28934
           }
         },
         {
@@ -738,30 +825,30 @@
             "archived": false,
             "id": 521655652,
             "language": "TypeScript",
-            "last_commit": "2026-08-24T12:46:25Z",
+            "last_commit": "2026-08-24T13:49:57Z",
             "owner": "Infisical",
             "repo": "infisical",
-            "stars": 28923
+            "stars": 28924
           }
         },
         {
           "node_type": "item",
-          "title": "",
+          "title": "trufflehog",
           "description": "💸 Searches through Git repositories for high entropy strings and secrets, digging deep into commit history.",
           "children": [],
           "repo_info": {
             "archived": false,
             "id": 77726177,
             "language": "Go",
-            "last_commit": "2026-08-24T02:46:05Z",
+            "last_commit": "2026-08-24T13:40:24Z",
             "owner": "trufflesecurity",
             "repo": "trufflehog",
-            "stars": 27568
+            "stars": 27569
           }
         },
         {
           "node_type": "item",
-          "title": "",
+          "title": "sops",
           "description": "🆓 Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and PGP.",
           "children": [],
           "repo_info": {
@@ -818,6 +905,21 @@
       "description": "Once you've got a significant user base, it is called a community. You'll then be responsible to protect it: the customer, people, the company, the business, and facilitate all interactions and transactions happening therein.\nA critical intermediation complex driven by a policy and constraint by local laws, the Trust & Safety department is likely embodied by a cross-functional team of 24/7 operators and systems of highly advanced moderation and administration tools. You can see it as an extension of customer support services, specialized in edge-cases like manual identity checks, moderation of harmful content, stopping harassment, handling of warrants and copyright claims, data sequestration and other credit card disputes.",
       "items": [
         {
+          "node_type": "item",
+          "title": "Awesome List of Billing and Payments: Fraud links",
+          "description": "Section dedicated to fraud management for billing and payment, from our sister repository.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 191599624,
+            "language": null,
+            "last_commit": "2026-08-14T13:46:25Z",
+            "owner": "kdeldycke",
+            "repo": "awesome-billing",
+            "stars": 1329
+          }
+        },
+        {
           "children": [
             {
               "node_type": "item",
@@ -831,7 +933,7 @@
                 "last_commit": "2026-08-24T05:19:36Z",
                 "owner": "sherlock-project",
                 "repo": "sherlock",
-                "stars": 90151
+                "stars": 90154
               }
             },
             {
@@ -935,7 +1037,7 @@
                 "last_commit": "2026-08-24T13:05:03Z",
                 "owner": "soxoj",
                 "repo": "maigret",
-                "stars": 37002
+                "stars": 37003
               }
             },
             {
@@ -950,7 +1052,7 @@
                 "last_commit": "2026-01-06T11:08:15Z",
                 "owner": "sundowndev",
                 "repo": "phoneinfoga",
-                "stars": 17620
+                "stars": 17621
               }
             },
             {
@@ -1080,7 +1182,7 @@
           "children": [
             {
               "node_type": "item",
-              "title": "",
+              "title": "hosts",
               "description": "🆓 Consolidates reputable hosts files, and merges them into a unified hosts file with duplicates removed.",
               "children": [],
               "repo_info": {
@@ -1125,7 +1227,7 @@
             },
             {
               "node_type": "item",
-              "title": "",
+              "title": "metadata",
               "description": "💸 Extensive collection of list for security, privacy and parental control.",
               "children": [],
               "repo_info": {
@@ -1162,7 +1264,7 @@
           "children": [
             {
               "node_type": "item",
-              "title": "",
+              "title": "check-if-email-exists",
               "description": "💸 Verify an email address's reachability over SMTP without sending anything, catching typos, disposable domains and role accounts at signup.",
               "children": [],
               "repo_info": {
@@ -1207,7 +1309,7 @@
             },
             {
               "node_type": "item",
-              "title": "",
+              "title": "gman",
               "description": "🆓 “A Ruby gem to check if the owner of a given email address or website is working for THE MAN (a.k.a verifies government domains).” Good resource to hunt for potential government customers in your user base.",
               "children": [],
               "repo_info": {
@@ -1244,7 +1346,7 @@
             },
             {
               "node_type": "item",
-              "title": "",
+              "title": "profanity-check",
               "description": "🆓 Uses a linear SVM model trained on 200k human-labeled samples of clean and profane text strings.",
               "children": [],
               "repo_info": {
@@ -1280,7 +1382,7 @@
             "last_commit": "2026-08-24T09:14:23Z",
             "owner": "papers-we-love",
             "repo": "papers-we-love",
-            "stars": 108965
+            "stars": 108966
           }
         },
         {
@@ -1297,6 +1399,50 @@
             "repo": "email-marketing-regulations",
             "stars": 469
           }
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Presidio",
+              "description": "🆓 Context aware, pluggable and customizable data protection and PII data anonymization service for text and images.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 132129752,
+                "language": "Python",
+                "last_commit": "2026-08-11T15:20:50Z",
+                "owner": "data-privacy-stack",
+                "repo": "presidio",
+                "stars": 10601
+              }
+            }
+          ],
+          "description": "As a central repository of user data, the IAM stack stakeholders have to prevent any leakage of business and customer data. To allow for internal analytics, anonymization is required.",
+          "node_type": "group",
+          "title": "Anonymization"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "GDPR Developer Guide",
+              "description": "Best practices for developers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 271484285,
+                "language": "HTML",
+                "last_commit": "2022-12-08T04:57:14Z",
+                "owner": "LINCnil",
+                "repo": "GDPR-Developer-Guide",
+                "stars": 358
+              }
+            }
+          ],
+          "description": "The well-known European privacy framework",
+          "node_type": "group",
+          "title": "GDPR"
         }
       ],
       "title": "Privacy"
@@ -1339,7 +1485,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T13:11:54.364Z",
+    "last_updated": "2026-08-24T14:03:52.576Z",
     "original_repository": "kdeldycke/awesome-iam",
     "original_repository_id": 191515681,
     "original_repository_sha": "ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4",
