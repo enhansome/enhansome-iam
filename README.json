@@ -10,12 +10,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "📙 Amazon Web Services — a practical guide",
+            "homepage": null,
             "id": 63266213,
             "language": "Shell",
+            "license": "CC-BY-4.0",
             "last_commit": "2024-08-16T02:51:54Z",
+            "open_issues": 159,
             "owner": "open-guides",
             "repo": "og-aws",
-            "stars": 36444
+            "stars": 36444,
+            "topics": []
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -26,12 +31,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Cartography is a Python tool that pulls infrastructure assets and their relationships into a Neo4j graph database.",
+            "homepage": "https://docs.cartography.dev/",
             "id": 172811550,
             "language": "Python",
-            "last_commit": "2026-08-28T22:11:17Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-28T23:19:24Z",
+            "open_issues": 114,
             "owner": "cartography-cncf",
             "repo": "cartography",
-            "stars": 4030
+            "stars": 4030,
+            "topics": []
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         }
@@ -48,12 +58,29 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Headless cloud-native authentication and identity management written in Go. Scales to a billion+ users. Replace Homegrown, Auth0, Okta, Firebase with better UX and DX. Passkeys, Social Sign In, OIDC, Magic Link, Multi-Factor Auth, SMS, SAML, TOTP, and more. Runs everywhere, runs best on Ory Network. ",
+            "homepage": "https://www.ory.com/?utm_source=github&utm_medium=banner&utm_campaign=kratos",
             "id": 135321861,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-29T09:30:37Z",
+            "open_issues": 222,
             "owner": "ory",
             "repo": "kratos",
-            "stars": 13855
+            "stars": 13855,
+            "topics": [
+              "hacktoberfest",
+              "identity",
+              "identity-management",
+              "login",
+              "profile-management",
+              "registration",
+              "user",
+              "user-management",
+              "user-profile",
+              "user-profiles",
+              "users"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -64,12 +91,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "[READ ONLY] Modern PHP user login and management framework",
+            "homepage": "https://www.userfrosting.com",
             "id": 18148206,
             "language": "PHP",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-05T01:41:16Z",
+            "open_issues": 0,
             "owner": "userfrosting",
             "repo": "UserFrosting",
-            "stars": 1665
+            "stars": 1665,
+            "topics": [
+              "login",
+              "login-system",
+              "php",
+              "user-management",
+              "userfrosting",
+              "users",
+              "web-framework"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         }
@@ -86,12 +126,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Papers from the computer science community to read and discuss.",
+            "homepage": "http://paperswelove.org/",
             "id": 15204860,
             "language": "Shell",
+            "license": null,
             "last_commit": "2026-08-24T09:14:23Z",
+            "open_issues": 3,
             "owner": "papers-we-love",
             "repo": "papers-we-love",
-            "stars": 109063
+            "stars": 109070,
+            "topics": [
+              "awesome",
+              "computer-science",
+              "meetup",
+              "papers",
+              "programming",
+              "read-papers",
+              "theory"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -104,12 +157,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🕶️A list of awesome things related to Globally Unique Identifiers",
+                "homepage": null,
                 "id": 155501164,
                 "language": null,
+                "license": null,
                 "last_commit": "2022-04-16T05:03:43Z",
+                "open_issues": 3,
                 "owner": "secretGeek",
                 "repo": "AwesomeGUID",
-                "stars": 21
+                "stars": 21,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -131,12 +189,29 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Pomerium is an identity and context-aware access proxy.",
+            "homepage": "https://www.pomerium.com",
             "id": 163722349,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T19:24:17Z",
+            "open_issues": 154,
             "owner": "pomerium",
             "repo": "pomerium",
-            "stars": 4980
+            "stars": 4980,
+            "topics": [
+              "aigateway",
+              "beyondcorp",
+              "gateway",
+              "go",
+              "iam",
+              "identity",
+              "identity-aware-proxy",
+              "pomerium",
+              "reverse-proxy",
+              "vpn",
+              "zero-trust"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -147,12 +222,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A cloud native Identity & Access Proxy / API (IAP) and Access Control Decision API that authenticates, authorizes, and mutates incoming HTTP(s) requests. Inspired by the BeyondCorp / Zero Trust white paper. Written in Go.",
+            "homepage": "https://www.ory.com/?utm_source=github&utm_medium=banner&utm_campaign=hydra",
             "id": 104739489,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-27T15:23:59Z",
+            "open_issues": 108,
             "owner": "ory",
             "repo": "oathkeeper",
-            "stars": 3597
+            "stars": 3597,
+            "topics": [
+              "api-gateway",
+              "golang",
+              "hacktoberfest",
+              "oauth2",
+              "openid-connect",
+              "ory",
+              "ory-oathkeeper",
+              "reverse-proxy"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -163,12 +252,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A cloud native Identity Aware Proxy and Access Control Decision service",
+            "homepage": "https://dadrus.github.io/heimdall/",
             "id": 480728437,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T16:37:47Z",
+            "open_issues": 54,
             "owner": "dadrus",
             "repo": "heimdall",
-            "stars": 254
+            "stars": 254,
+            "topics": [
+              "access-control",
+              "access-management",
+              "api-gateway",
+              "auth-api",
+              "auth-proxy",
+              "authentication",
+              "authorization",
+              "golang",
+              "identity-aware-proxy",
+              "oauth2",
+              "openid-connect",
+              "policy-enforcement"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         }
@@ -185,12 +292,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The SPIFFE Runtime Environment",
+            "homepage": "https://spiffe.io",
             "id": 100061496,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T09:51:09Z",
+            "open_issues": 133,
             "owner": "spiffe",
             "repo": "spire",
-            "stars": 2503
+            "stars": 2503,
+            "topics": []
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -201,12 +313,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "NanoMDM is a minimalist Apple MDM server and library heavily inspired by MicroMDM",
+            "homepage": null,
             "id": 363723848,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-27T04:11:19Z",
+            "open_issues": 17,
             "owner": "micromdm",
             "repo": "nanomdm",
-            "stars": 639
+            "stars": 639,
+            "topics": []
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         }
@@ -223,12 +340,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A place for creators and users of password managers to collaborate on resources to make password management better.",
+            "homepage": null,
             "id": 248599368,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2026-08-28T00:20:19Z",
+            "open_issues": 111,
             "owner": "apple",
             "repo": "password-manager-resources",
-            "stars": 4799
+            "stars": 4799,
+            "topics": []
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -239,12 +361,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A compilation of sites with dumb password rules.",
+            "homepage": "https://dumbpasswordrules.com",
             "id": 75543530,
             "language": "Nunjucks",
+            "license": "MIT",
             "last_commit": "2026-08-23T14:29:04Z",
+            "open_issues": 62,
             "owner": "duffn",
             "repo": "dumb-password-rules",
-            "stars": 3024
+            "stars": 3024,
+            "topics": [
+              "hacktoberfest",
+              "passwords",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -255,12 +386,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A Well-Known URL for Changing Passwords",
+            "homepage": "https://w3c.github.io/webappsec-change-password-url/",
             "id": 157446655,
             "language": "Bikeshed",
+            "license": "NOASSERTION",
             "last_commit": "2025-02-12T08:23:47Z",
+            "open_issues": 17,
             "owner": "w3c",
             "repo": "webappsec-change-password-url",
-            "stars": 905
+            "stars": 906,
+            "topics": []
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         }
@@ -277,12 +413,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™",
+            "homepage": "https://www.authelia.com",
             "id": 75785240,
             "language": "Go",
-            "last_commit": "2026-08-28T19:35:23Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T04:23:15Z",
+            "open_issues": 122,
             "owner": "authelia",
             "repo": "authelia",
-            "stars": 28732
+            "stars": 28733,
+            "topics": [
+              "2fa",
+              "authentication",
+              "docker",
+              "golang",
+              "kubernetes",
+              "ldap",
+              "mfa",
+              "multifactor",
+              "oauth2",
+              "openid-connect",
+              "passkeys",
+              "push-notifications",
+              "security",
+              "sso",
+              "sso-authentication",
+              "totp",
+              "two-factor",
+              "two-factor-authentication",
+              "webauthn",
+              "yubikey"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -293,12 +455,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Kanidm: A simple, secure, and fast identity management platform",
+            "homepage": "https://kanidm.com",
             "id": 168782501,
             "language": "Rust",
+            "license": "MPL-2.0",
             "last_commit": "2026-08-26T04:57:48Z",
+            "open_issues": 268,
             "owner": "kanidm",
             "repo": "kanidm",
-            "stars": 5303
+            "stars": 5304,
+            "topics": [
+              "authentication",
+              "iam",
+              "identity",
+              "identity-management",
+              "idm",
+              "ldap",
+              "oidc",
+              "radius",
+              "rust",
+              "scim",
+              "security",
+              "ssh-authentication",
+              "webauthn"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         }
@@ -317,12 +498,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Community guide to using YubiKey for GnuPG and SSH - protect secrets with hardware crypto.",
+                "homepage": "https://drduh.github.io/YubiKey-Guide/",
                 "id": 50806714,
                 "language": "HTML",
+                "license": "MIT",
                 "last_commit": "2026-08-23T23:30:05Z",
+                "open_issues": 10,
                 "owner": "drduh",
                 "repo": "YubiKey-Guide",
-                "stars": 12450
+                "stars": 12450,
+                "topics": [
+                  "gnupg",
+                  "gpg",
+                  "gpg-agent",
+                  "gpg-configuration",
+                  "guide",
+                  "guides",
+                  "hardening",
+                  "identity-management",
+                  "pgp",
+                  "privacy",
+                  "remote-access",
+                  "rsa-cryptography",
+                  "secrets",
+                  "security",
+                  "smartcard",
+                  "ssh",
+                  "ssh-agent",
+                  "yubikey"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -333,12 +538,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "OpenSK is an open-source implementation for security keys written in Rust that supports both FIDO U2F and FIDO2 standards.",
+                "homepage": null,
                 "id": 228682115,
                 "language": "Rust",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-06T08:22:13Z",
+                "open_issues": 12,
                 "owner": "google",
                 "repo": "OpenSK",
-                "stars": 3406
+                "stars": 3406,
+                "topics": [
+                  "ctap2",
+                  "embedded",
+                  "fido2",
+                  "firmware",
+                  "hardware",
+                  "opensk",
+                  "rust",
+                  "security",
+                  "security-key",
+                  "tock",
+                  "tock-os",
+                  "u2f",
+                  "webauthn"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -356,12 +580,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "CFSSL: Cloudflare's PKI and TLS toolkit",
+                "homepage": "https://cfssl.org/",
                 "id": 21591001,
                 "language": "Go",
+                "license": "BSD-2-Clause",
                 "last_commit": "2026-04-24T00:37:10Z",
+                "open_issues": 338,
                 "owner": "cloudflare",
                 "repo": "cfssl",
-                "stars": 9462
+                "stars": 9462,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -372,12 +601,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "JA4+ is a suite of network fingerprinting standards",
+                "homepage": "https://foxio.io",
                 "id": 695203140,
                 "language": "Rust",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-27T16:41:51Z",
+                "open_issues": 21,
                 "owner": "FoxIO-LLC",
                 "repo": "ja4",
-                "stars": 2061
+                "stars": 2061,
+                "topics": [
+                  "cybersecurity",
+                  "ja3",
+                  "ja3-fingerprint",
+                  "ja4",
+                  "ja4-fingerprint",
+                  "ja4h",
+                  "ja4x",
+                  "jarm",
+                  "network-analysis",
+                  "network-forensics"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -388,12 +633,24 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Repository for the Lemur Certificate Manager",
+                "homepage": null,
                 "id": 37542590,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-07-06T23:50:40Z",
+                "open_issues": 115,
                 "owner": "Netflix",
                 "repo": "lemur",
-                "stars": 1772
+                "stars": 1772,
+                "topics": [
+                  "aws",
+                  "python",
+                  "security",
+                  "ssl",
+                  "ssl-certificates",
+                  "tls"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -411,12 +668,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": ":closed_lock_with_key: Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests!!)",
+                "homepage": null,
                 "id": 30016822,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2026-08-15T13:48:35Z",
+                "open_issues": 19,
                 "owner": "dwyl",
                 "repo": "learn-json-web-tokens",
-                "stars": 4173
+                "stars": 4173,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -440,12 +702,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policies for your application resources.",
+                "homepage": "https://cerbos.dev",
                 "id": 350005438,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T09:24:57Z",
+                "open_issues": 56,
                 "owner": "cerbos",
                 "repo": "cerbos",
-                "stars": 4559
+                "stars": 4560,
+                "topics": [
+                  "access-control",
+                  "authorization",
+                  "go",
+                  "golang",
+                  "kubernetes",
+                  "policy",
+                  "security"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -456,12 +731,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open source platform for X.509 certificate based service authentication and fine grained access control in dynamic infrastructures. Athenz supports provisioning and configuration (centralized authorization) use cases as well as serving/runtime (decentralized authorization) use cases.",
+                "homepage": "https://www.athenz.io",
                 "id": 73948366,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T20:33:14Z",
+                "open_issues": 52,
                 "owner": "AthenZ",
                 "repo": "athenz",
-                "stars": 1006
+                "stars": 1006,
+                "topics": [
+                  "access-token",
+                  "authorization",
+                  "cloud",
+                  "containers",
+                  "dynamic-infrastructures",
+                  "rbac",
+                  "role-based-access-control",
+                  "service-identity",
+                  "spiffe",
+                  "tls"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -472,12 +763,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "FerrisKey is an open-source IAM solution designed for modern cloud-native environments, high-performance and written in Rust.",
+                "homepage": "https://ferriskey.rs",
                 "id": 952218055,
                 "language": "Rust",
-                "last_commit": "2026-08-28T21:06:16Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T23:10:30Z",
+                "open_issues": 80,
                 "owner": "ferriskey",
                 "repo": "ferriskey",
-                "stars": 689
+                "stars": 689,
+                "topics": [
+                  "autorization",
+                  "cloud-native",
+                  "hacktoberfest",
+                  "iam",
+                  "oauth2",
+                  "oidc",
+                  "react",
+                  "rust",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -495,12 +801,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Apache Casbin: an authorization library that supports access control models like ACL, RBAC, ABAC.",
+                "homepage": "https://casbin.apache.org/",
                 "id": 87617508,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-21T08:53:52Z",
+                "open_issues": 39,
                 "owner": "apache",
                 "repo": "casbin",
-                "stars": 20357
+                "stars": 20357,
+                "topics": [
+                  "abac",
+                  "access-control",
+                  "acl",
+                  "apache",
+                  "auth",
+                  "authentication",
+                  "authn",
+                  "authorization",
+                  "authz",
+                  "cas",
+                  "casbin",
+                  "iam",
+                  "oauth",
+                  "oidc",
+                  "permission",
+                  "rbac",
+                  "saml",
+                  "sso"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -511,12 +841,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open Policy Agent (OPA) is an open source, general-purpose policy engine.",
+                "homepage": "https://www.openpolicyagent.org",
                 "id": 48714685,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T20:50:31Z",
+                "open_issues": 336,
                 "owner": "open-policy-agent",
                 "repo": "opa",
-                "stars": 12174
+                "stars": 12174,
+                "topics": [
+                  "authorization",
+                  "cloud-native",
+                  "compliance",
+                  "declarative",
+                  "json",
+                  "opa",
+                  "open-policy-agent",
+                  "policy"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -527,12 +871,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The most scalable and customizable permission server on the market. Fix your slow or broken permission system with Google's proven \"Zanzibar\" approach. Supports ACL, RBAC, and more. Written in Go, cloud native, headless, API-first. Available as a service on Ory Network and for self-hosters.",
+                "homepage": "https://www.ory.com/?utm_source=github&utm_medium=banner&utm_campaign=keto",
                 "id": 125619154,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-24T03:44:49Z",
+                "open_issues": 73,
                 "owner": "ory",
                 "repo": "keto",
-                "stars": 5392
+                "stars": 5392,
+                "topics": [
+                  "abac",
+                  "access-control",
+                  "acl",
+                  "authorization",
+                  "fine-grained-permissions",
+                  "hacktoberfest",
+                  "iam",
+                  "permission-management",
+                  "permissions",
+                  "policy-management",
+                  "rbac",
+                  "rebac",
+                  "relation-tuples",
+                  "zanzibar"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -543,12 +907,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A SDK for access control policies: authorization for the microservice and IoT age. Inspired by AWS IAM policies. Written for Go.",
+                "homepage": "https://www.ory.com/?utm_source=github&utm_medium=banner&utm_campaign=ladon",
                 "id": 44393602,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T18:57:19Z",
+                "open_issues": 2,
                 "owner": "ory",
                 "repo": "ladon",
-                "stars": 2457
+                "stars": 2457,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -566,12 +935,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open Source, Google Zanzibar-inspired database for scalably storing and querying fine-grained authorization data",
+                "homepage": "https://authzed.com/docs",
                 "id": 396856161,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T19:07:06Z",
+                "open_issues": 146,
                 "owner": "authzed",
                 "repo": "spicedb",
-                "stars": 6997
+                "stars": 6999,
+                "topics": [
+                  "abac",
+                  "acl",
+                  "authorization",
+                  "ciam",
+                  "cloud-native",
+                  "database",
+                  "distributed-systems",
+                  "entitlements",
+                  "fga",
+                  "fine-grained-access-control",
+                  "fine-grained-authorization",
+                  "kubernetes",
+                  "permissions",
+                  "rbac",
+                  "rebac",
+                  "security",
+                  "security-tools",
+                  "zanzibar"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -582,12 +975,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An open-source authorization as a service inspired by Google Zanzibar, designed to build and manage fine-grained and scalable authorization systems for any application. — Permify is now part of FusionAuth 🎉",
+                "homepage": "https://permify.co/",
                 "id": 513870749,
                 "language": "Go",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-28T17:45:06Z",
+                "open_issues": 79,
                 "owner": "Permify",
                 "repo": "permify",
-                "stars": 5942
+                "stars": 5942,
+                "topics": [
+                  "abac",
+                  "access-control",
+                  "acl",
+                  "authorization",
+                  "ciam",
+                  "cloud-native",
+                  "distributed",
+                  "fga",
+                  "fine-grained-access-control",
+                  "golang",
+                  "grpc",
+                  "kubernetes",
+                  "least-privilege",
+                  "permission",
+                  "permissions",
+                  "rbac",
+                  "rebac",
+                  "security",
+                  "zanzibar"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -598,12 +1016,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Policy and data administration, distribution, and real-time updates on top of Policy Agents (OPA, Cedar, ...)",
+                "homepage": "https://opal.ac",
                 "id": 338791379,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T15:31:06Z",
+                "open_issues": 63,
                 "owner": "permitio",
                 "repo": "opal",
-                "stars": 5504
+                "stars": 5505,
+                "topics": [
+                  "authorization",
+                  "cedar",
+                  "hacktoberfest",
+                  "microservices",
+                  "opa",
+                  "opal",
+                  "open-policy-agent",
+                  "openfga",
+                  "policy",
+                  "policy-as-code",
+                  "pubsub",
+                  "realtime",
+                  "websocket"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -614,12 +1051,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Cloud-native authorization for modern applications and APIs",
+                "homepage": "https://www.topaz.sh",
                 "id": 556329104,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-26T20:13:28Z",
+                "open_issues": 10,
                 "owner": "aserto-dev",
                 "repo": "topaz",
-                "stars": 1360
+                "stars": 1360,
+                "topics": [
+                  "abac",
+                  "access-control",
+                  "api",
+                  "authorization",
+                  "cloud-native",
+                  "golang",
+                  "opa",
+                  "rbac",
+                  "rebac",
+                  "security",
+                  "zanzibar"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -637,12 +1091,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "IAM Least Privilege Policy Generator",
+                "homepage": "https://policy-sentry.readthedocs.io/",
                 "id": 209652627,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-16T15:09:57Z",
+                "open_issues": 6,
                 "owner": "salesforce",
                 "repo": "policy_sentry",
-                "stars": 2166
+                "stars": 2166,
+                "topics": [
+                  "aws",
+                  "aws-security",
+                  "cloud",
+                  "cloudsecurity",
+                  "hacktoberfest",
+                  "iam",
+                  "iam-policy",
+                  "salesforce",
+                  "security"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -653,12 +1122,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AWS IAM policy statement generator with fluent interface",
+                "homepage": "https://iam-floyd.readthedocs.io/",
                 "id": 268601916,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T04:50:06Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T02:16:43Z",
+                "open_issues": 8,
                 "owner": "udondan",
                 "repo": "iam-floyd",
-                "stars": 572
+                "stars": 572,
+                "topics": [
+                  "aws",
+                  "aws-cdk",
+                  "cdk",
+                  "generator",
+                  "hacktoberfest",
+                  "iam",
+                  "iam-policy",
+                  "jsii"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -669,12 +1152,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "IAMbic is Version-Control for IAM. It centralizes and simplifies cloud access and permissions. It maintains an eventually consistent, human-readable, bi-directional representation of IAM in Git.",
+                "homepage": "https://iambic.org",
                 "id": 547447416,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-11-27T11:56:33Z",
+                "open_issues": 46,
                 "owner": "noqdev",
                 "repo": "iambic",
-                "stars": 304
+                "stars": 304,
+                "topics": [
+                  "aws",
+                  "aws-multi-account",
+                  "aws-organizations",
+                  "compliance",
+                  "google-workspace",
+                  "iam",
+                  "infrastructure-as-code",
+                  "okta",
+                  "policy-as-code"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -692,12 +1190,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "High Performance Rate Limiting MicroService and Library - Developed at Mailgun",
+                "homepage": null,
                 "id": 747435222,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-25T13:57:03Z",
+                "open_issues": 8,
                 "owner": "gubernator-io",
                 "repo": "gubernator",
-                "stars": 168
+                "stars": 168,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -719,12 +1222,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open Source Identity and Access Management For Modern Applications and Services",
+            "homepage": "https://www.keycloak.org",
             "id": 11125589,
             "language": "Java",
-            "last_commit": "2026-08-28T18:48:49Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T00:42:58Z",
+            "open_issues": 3152,
             "owner": "keycloak",
             "repo": "keycloak",
-            "stars": 36472
+            "stars": 36475,
+            "topics": [
+              "keycloak",
+              "oidc",
+              "saml"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -735,12 +1247,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The authentication glue you need.",
+            "homepage": "https://goauthentik.io",
             "id": 230885748,
             "language": "Python",
-            "last_commit": "2026-08-28T21:32:32Z",
+            "license": "NOASSERTION",
+            "last_commit": "2026-08-29T00:15:43Z",
+            "open_issues": 1072,
             "owner": "goauthentik",
             "repo": "authentik",
-            "stars": 25220
+            "stars": 25222,
+            "topics": [
+              "authentication",
+              "authentik",
+              "authorization",
+              "kubernetes",
+              "oauth2",
+              "oauth2-client",
+              "oauth2-server",
+              "oidc",
+              "oidc-client",
+              "oidc-provider",
+              "proxy",
+              "reverse-proxy",
+              "saml",
+              "saml-idp",
+              "saml-sp",
+              "security",
+              "sso"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -751,12 +1286,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Internet-scale OpenID Certified™ OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go.",
+            "homepage": "https://www.ory.com/?utm_source=github&utm_medium=banner&utm_campaign=hydra",
             "id": 36071697,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-29T09:30:11Z",
+            "open_issues": 94,
             "owner": "ory",
             "repo": "hydra",
-            "stars": 17509
+            "stars": 17510,
+            "topics": [
+              "authorization",
+              "cloud",
+              "docker",
+              "federation",
+              "hacktoberfest",
+              "hydra",
+              "identity",
+              "oauth",
+              "oauth-provider",
+              "oauth2",
+              "oauth2-provider",
+              "oauth2-server",
+              "oidc",
+              "openid",
+              "openid-connect",
+              "openid-connect-provider",
+              "openid-provider",
+              "security",
+              "server",
+              "sso"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -767,12 +1328,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "ZITADEL - Identity infrastructure, simplified for you.",
+            "homepage": "https://zitadel.com",
             "id": 247714750,
             "language": "Go",
-            "last_commit": "2026-08-28T18:20:30Z",
+            "license": "AGPL-3.0",
+            "last_commit": "2026-08-29T00:18:29Z",
+            "open_issues": 1140,
             "owner": "zitadel",
             "repo": "zitadel",
-            "stars": 14888
+            "stars": 14888,
+            "topics": [
+              "2fa",
+              "authentication",
+              "authorization",
+              "fido2",
+              "fips-140-3",
+              "identity",
+              "login",
+              "mfa",
+              "multitenancy",
+              "oauth2",
+              "oidc",
+              "openid-connect",
+              "passkeys",
+              "saml",
+              "scim",
+              "sso",
+              "user"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -783,12 +1367,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD",
+            "homepage": "https://casdoor.ai",
             "id": 306366900,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T17:53:32Z",
+            "open_issues": 117,
             "owner": "casdoor",
             "repo": "casdoor",
-            "stars": 14287
+            "stars": 14288,
+            "topics": [
+              "agent",
+              "agentic-ai",
+              "agi",
+              "ai-gateway",
+              "auth",
+              "authentication",
+              "iam",
+              "llm",
+              "mcp",
+              "mcp-gateway",
+              "mfa",
+              "oauth",
+              "oidc",
+              "openclaw",
+              "radius",
+              "saml",
+              "scim",
+              "single-sign-on",
+              "sso",
+              "webauthn"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -799,12 +1409,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Simple and opinionated OpenID Connect server designed for self-hosters",
+            "homepage": null,
             "id": 642424554,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-01-20T18:29:58Z",
+            "open_issues": 32,
             "owner": "lastlogin-net",
             "repo": "obligator",
-            "stars": 838
+            "stars": 838,
+            "topics": [
+              "oidc",
+              "oidc-server",
+              "openid"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -815,12 +1434,33 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "OpenID Connect, the authentication protocol and identity layer on top of OAuth 2.0 used in many SSO and adopted in many social logins (Apple, Facebook, Google, ...etc). Find this curated list of providers, services, libraries, and resources to adopt it and know more about existing specs.",
+            "homepage": "https://openid.net",
             "id": 621026799,
             "language": "HTML",
+            "license": "CC0-1.0",
             "last_commit": "2026-08-20T20:43:07Z",
+            "open_issues": 2,
             "owner": "cerberauth",
             "repo": "awesome-openid-connect",
-            "stars": 122
+            "stars": 122,
+            "topics": [
+              "authorization",
+              "awesome",
+              "awesome-list",
+              "ciam",
+              "cybersecurity",
+              "fapi",
+              "iam",
+              "identity",
+              "mcp",
+              "oauth",
+              "oauth2",
+              "oidc",
+              "openid-connect",
+              "openidconnect",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         }
@@ -837,12 +1477,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A tool for secrets management, encryption as a service, and privileged access management",
+            "homepage": "https://developer.hashicorp.com/vault",
             "id": 31288958,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-28T21:22:37Z",
+            "open_issues": 1431,
             "owner": "hashicorp",
             "repo": "vault",
-            "stars": 36183
+            "stars": 36185,
+            "topics": [
+              "go",
+              "secrets",
+              "vault"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -853,12 +1502,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+            "homepage": "https://infisical.com",
             "id": 521655652,
             "language": "TypeScript",
-            "last_commit": "2026-08-28T22:06:05Z",
+            "license": "NOASSERTION",
+            "last_commit": "2026-08-29T03:29:43Z",
+            "open_issues": 744,
             "owner": "Infisical",
             "repo": "infisical",
-            "stars": 29011
+            "stars": 29012,
+            "topics": [
+              "acme",
+              "certificate-management",
+              "cli",
+              "environment-variables",
+              "go",
+              "golang",
+              "node-js",
+              "open-source",
+              "pki",
+              "postgres",
+              "private-ca",
+              "secret-management",
+              "secret-manager",
+              "secret-scanning",
+              "secrets",
+              "secrets-management",
+              "security",
+              "security-tools",
+              "typescript",
+              "vault"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -869,12 +1544,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Find secrets with Gitleaks 🔑",
+            "homepage": "https://gitleaks.io",
             "id": 119190187,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-26T04:17:05Z",
+            "open_issues": 467,
             "owner": "gitleaks",
             "repo": "gitleaks",
-            "stars": 28996
+            "stars": 29001,
+            "topics": [
+              "ai-powered",
+              "ci-cd",
+              "cicd",
+              "cli",
+              "data-loss-prevention",
+              "devsecops",
+              "dlp",
+              "git",
+              "gitleaks",
+              "go",
+              "golang",
+              "hacktoberfest",
+              "llm",
+              "llm-inference",
+              "llm-training",
+              "nhi",
+              "open-source",
+              "secret",
+              "security",
+              "security-tools"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -885,12 +1586,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Find, verify, and analyze leaked credentials",
+            "homepage": "https://trufflesecurity.com",
             "id": 77726177,
             "language": "Go",
+            "license": "AGPL-3.0",
             "last_commit": "2026-08-28T09:56:00Z",
+            "open_issues": 525,
             "owner": "trufflesecurity",
             "repo": "trufflehog",
-            "stars": 27621
+            "stars": 27622,
+            "topics": [
+              "credentials",
+              "devsecops",
+              "dynamic-analysis",
+              "precommit",
+              "scanning",
+              "secret",
+              "secret-management",
+              "secrets",
+              "security",
+              "security-tools",
+              "trufflehog",
+              "verification"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -901,12 +1620,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Simple and flexible tool for managing secrets",
+            "homepage": "https://getsops.io",
             "id": 40684033,
             "language": "Go",
+            "license": "MPL-2.0",
             "last_commit": "2026-08-26T19:19:37Z",
+            "open_issues": 443,
             "owner": "getsops",
             "repo": "sops",
-            "stars": 22953
+            "stars": 22955,
+            "topics": [
+              "aws",
+              "azure",
+              "devops",
+              "gcp",
+              "pgp",
+              "secret-distribution",
+              "secret-management",
+              "security",
+              "sops"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -919,12 +1653,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Meaningful control of data in distributed systems.",
+                "homepage": null,
                 "id": 173796172,
                 "language": "Rust",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T18:42:46Z",
+                "open_issues": 17,
                 "owner": "project-oak",
                 "repo": "oak",
-                "stars": 1497
+                "stars": 1497,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -935,12 +1674,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Keystone Enclave (QEMU + HiFive Unleashed)",
+                "homepage": null,
                 "id": 137123646,
                 "language": "C",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-03T21:17:33Z",
+                "open_issues": 118,
                 "owner": "keystone-enclave",
                 "repo": "keystone",
-                "stars": 536
+                "stars": 536,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -962,12 +1706,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "💰 Billing & Payments knowledge for cloud platforms",
+            "homepage": null,
             "id": 191599624,
             "language": null,
+            "license": "CC0-1.0",
             "last_commit": "2026-08-14T13:46:25Z",
+            "open_issues": 2,
             "owner": "kdeldycke",
             "repo": "awesome-billing",
-            "stars": 1329
+            "stars": 1329,
+            "topics": [
+              "awesome",
+              "awesome-list",
+              "billing",
+              "cloud-billing",
+              "cost-forecast",
+              "cost-management",
+              "double-entry",
+              "fraud",
+              "invoicing",
+              "metering",
+              "payment-processing",
+              "pricing",
+              "pricing-strategy",
+              "product-catalog",
+              "saas-billing",
+              "subscription-billing",
+              "subscription-management",
+              "tax",
+              "usage-based-billing",
+              "vat"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -980,12 +1750,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Hunt down social media accounts by username across social networks",
+                "homepage": "https://sherlockproject.xyz",
                 "id": 162998479,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-28T07:42:17Z",
+                "open_issues": 334,
                 "owner": "sherlock-project",
                 "repo": "sherlock",
-                "stars": 90556
+                "stars": 90566,
+                "topics": [
+                  "cli",
+                  "cti",
+                  "cybersecurity",
+                  "forensics",
+                  "hacktoberfest",
+                  "information-gathering",
+                  "infosec",
+                  "linux",
+                  "osint",
+                  "pentesting",
+                  "python",
+                  "python3",
+                  "reconnaissance",
+                  "redteam",
+                  "sherlock",
+                  "tools"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -996,12 +1788,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open-source infrastructure and data orchestration platform for risk decisioning",
+                "homepage": "https://www.ballerine.com",
                 "id": 544592629,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-28T09:35:04Z",
+                "open_issues": 11,
                 "owner": "ballerine-io",
                 "repo": "ballerine",
-                "stars": 2426
+                "stars": 2426,
+                "topics": [
+                  "back-office",
+                  "case-management",
+                  "compliance",
+                  "dashboard",
+                  "flow",
+                  "fraud",
+                  "id-card-camera",
+                  "identity-verification",
+                  "idv",
+                  "know-your-customer",
+                  "kyb",
+                  "kyc",
+                  "liveliness",
+                  "ocr",
+                  "onboarding",
+                  "orchestration",
+                  "risk-management",
+                  "rule-engine",
+                  "sdk",
+                  "svelte"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1012,12 +1830,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Wordlists for creating statistically likely username lists for use in password attacks and security testing. Used for pentesting for over 10 years with amazing results.",
+                "homepage": null,
                 "id": 51719178,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-02-16T17:20:44Z",
+                "open_issues": 0,
                 "owner": "insidetrust",
                 "repo": "statistically-likely-usernames",
-                "stars": 1388
+                "stars": 1388,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -1035,12 +1858,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Gephi - The Open Graph Viz Platform",
+                "homepage": "http://gephi.org",
                 "id": 2624521,
                 "language": "Java",
+                "license": "GPL-3.0",
                 "last_commit": "2026-08-28T07:55:59Z",
+                "open_issues": 442,
                 "owner": "gephi",
                 "repo": "gephi",
-                "stars": 6625
+                "stars": 6625,
+                "topics": [
+                  "graph",
+                  "graph-analytics",
+                  "interactive",
+                  "java",
+                  "opengl",
+                  "visualization"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1051,12 +1886,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Anomaly Detection on Dynamic (time-evolving) Graphs in Real-time and Streaming manner. Detecting intrusions (DoS and DDoS attacks), frauds, fake rating anomalies.",
+                "homepage": null,
                 "id": 216963360,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2024-01-10T05:43:58Z",
+                "open_issues": 3,
                 "owner": "Stream-AD",
                 "repo": "MIDAS",
-                "stars": 777
+                "stars": 777,
+                "topics": [
+                  "aaai2020",
+                  "anomaly-detection",
+                  "denial-of-service",
+                  "fraud-detection",
+                  "intrusion-detection"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -1074,12 +1920,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.",
+                "homepage": "https://www.owasp.org/index.php/OWASP_Internet_of_Things_Project",
                 "id": 3482588,
                 "language": "PHP",
+                "license": "MIT",
                 "last_commit": "2026-08-27T15:51:06Z",
+                "open_issues": 13,
                 "owner": "danielmiessler",
                 "repo": "SecLists",
-                "stars": 73139
+                "stars": 73142,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1090,12 +1941,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+                "homepage": "https://maigret.app",
                 "id": 275386910,
                 "language": "Python",
-                "last_commit": "2026-08-28T17:23:09Z",
+                "license": "MIT",
+                "last_commit": "2026-08-28T22:29:37Z",
+                "open_issues": 25,
                 "owner": "soxoj",
                 "repo": "maigret",
-                "stars": 37125
+                "stars": 37126,
+                "topics": [
+                  "cli",
+                  "cybersecurity",
+                  "identification",
+                  "information-gathering",
+                  "infosec",
+                  "investigation",
+                  "open-source",
+                  "osint",
+                  "osint-framework",
+                  "osint-python",
+                  "pentesting",
+                  "python",
+                  "python3",
+                  "reconnaissance",
+                  "redteam",
+                  "scraping",
+                  "sherlock",
+                  "social-network",
+                  "socmint",
+                  "username"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1106,12 +1983,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Information gathering framework for phone numbers",
+                "homepage": "https://sundowndev.github.io/phoneinfoga/",
                 "id": 154643390,
                 "language": "Go",
+                "license": "GPL-3.0",
                 "last_commit": "2026-08-25T07:42:10Z",
+                "open_issues": 127,
                 "owner": "sundowndev",
                 "repo": "phoneinfoga",
-                "stars": 17672
+                "stars": 17677,
+                "topics": [
+                  "agregation",
+                  "footprint",
+                  "information-gathering",
+                  "investigation",
+                  "open-source-intelligence",
+                  "osint",
+                  "phone",
+                  "phone-number",
+                  "reconnaissance",
+                  "reputation"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1122,12 +2015,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A curated list of Awesome Threat Intelligence resources",
+                "homepage": null,
                 "id": 48368290,
                 "language": null,
+                "license": "Apache-2.0",
                 "last_commit": "2026-05-31T10:54:05Z",
+                "open_issues": 117,
                 "owner": "hslatman",
                 "repo": "awesome-threat-intelligence",
-                "stars": 10581
+                "stars": 10581,
+                "topics": [
+                  "awesome",
+                  "awesome-list",
+                  "hacktoberfest",
+                  "security"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1138,12 +2041,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A collection of several hundred online tools for OSINT",
+                "homepage": "https://x.com/cyb_detective",
                 "id": 375081980,
                 "language": "HTML",
+                "license": null,
                 "last_commit": "2026-05-12T12:42:04Z",
+                "open_issues": 88,
                 "owner": "cipher387",
                 "repo": "osint_stuff_tool_collection",
-                "stars": 8744
+                "stars": 8746,
+                "topics": [
+                  "awesome",
+                  "awesome-list",
+                  "cybersecurity",
+                  "geoint",
+                  "hacking",
+                  "humint",
+                  "osint",
+                  "socmint",
+                  "tools",
+                  "toolset"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1154,12 +2073,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Proof of Concepts (PE, PDF...)",
+                "homepage": null,
                 "id": 32939583,
                 "language": "Assembly",
+                "license": null,
                 "last_commit": "2024-12-22T21:19:50Z",
+                "open_issues": 7,
                 "owner": "corkami",
                 "repo": "pocs",
-                "stars": 1556
+                "stars": 1556,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1170,12 +2094,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. Codename Mirage",
+                "homepage": "https://github.com/poppopjmp/spiderfoot/wiki",
                 "id": 927007941,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-07-03T13:58:51Z",
+                "open_issues": 15,
                 "owner": "poppopjmp",
                 "repo": "spiderfoot",
-                "stars": 192
+                "stars": 192,
+                "topics": [
+                  "mirage",
+                  "osint",
+                  "osint-framework",
+                  "osint-python",
+                  "osint-resources",
+                  "osint-tool"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1186,12 +2122,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "PROJECT PAUSED 1/11/22, Tracking Threat Actor Emails in Phishing Kits. CC @PhishKitTracker on twitter if you find a #threatactoremail in #phishingkit , maintained by @neonprimetime",
+                "homepage": "https://phishingkittracker.blogspot.com/",
                 "id": 159729901,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2022-01-11T22:45:32Z",
+                "open_issues": 2,
                 "owner": "neonprimetime",
                 "repo": "PhishingKitTracker",
-                "stars": 101
+                "stars": 101,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -1209,12 +2150,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
+                "homepage": "https://anubis.techaro.lol/",
                 "id": 950140488,
                 "language": "Go",
-                "last_commit": "2026-08-28T21:33:36Z",
+                "license": "MIT",
+                "last_commit": "2026-08-29T00:29:37Z",
+                "open_issues": 365,
                 "owner": "TecharoHQ",
                 "repo": "anubis",
-                "stars": 21810
+                "stars": 21816,
+                "topics": [
+                  "defense",
+                  "security"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1225,12 +2174,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": ":key: Curated list of awesome captcha libraries and crack tools.",
+                "homepage": "http://zyszys.github.io/awesome-captcha/",
                 "id": 121084517,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2026-04-17T22:10:48Z",
+                "open_issues": 11,
                 "owner": "ZYSzys",
                 "repo": "awesome-captcha",
-                "stars": 1421
+                "stars": 1421,
+                "topics": [
+                  "awesome",
+                  "awesome-list",
+                  "captcha",
+                  "captcha-break",
+                  "captcha-breaking",
+                  "captcha-generator",
+                  "captcha-image",
+                  "captcha-library",
+                  "captcha-solver",
+                  "captcha-solving",
+                  "crack-captcha",
+                  "image-captcha"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -1254,12 +2221,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.",
+                "homepage": null,
                 "id": 4008931,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-27T19:41:23Z",
+                "open_issues": 154,
                 "owner": "StevenBlack",
                 "repo": "hosts",
-                "stars": 30962
+                "stars": 30962,
+                "topics": [
+                  "ad-blocker",
+                  "anti-virus",
+                  "curated-sources",
+                  "gambling-filter",
+                  "hosts",
+                  "malware",
+                  "porn-filter",
+                  "pornblocker",
+                  "privacy",
+                  "protection",
+                  "python",
+                  "ransomware",
+                  "security",
+                  "social-media-filter",
+                  "trojans",
+                  "unified-hosts"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1270,12 +2259,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The Public Suffix List",
+                "homepage": "https://publicsuffix.org/",
                 "id": 35890002,
                 "language": "Go",
+                "license": "MPL-2.0",
                 "last_commit": "2026-08-19T19:18:36Z",
+                "open_issues": 73,
                 "owner": "publicsuffix",
                 "repo": "list",
-                "stars": 2922
+                "stars": 2922,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1286,12 +2280,35 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "CIDR country-level IP data, straight from the Regional Internet Registries, updated hourly. This is a read-only mirror.",
+                "homepage": "https://git.herrbischoff.com/country-ip-blocks/",
                 "id": 114153288,
                 "language": null,
+                "license": null,
                 "last_commit": "2026-03-04T10:32:57Z",
+                "open_issues": 0,
                 "owner": "herrbischoff",
                 "repo": "country-ip-blocks",
-                "stars": 927
+                "stars": 927,
+                "topics": [
+                  "afrinic",
+                  "apache",
+                  "apnic",
+                  "arin",
+                  "cc0",
+                  "cidr",
+                  "cidr-notation",
+                  "countries",
+                  "country",
+                  "firewall",
+                  "geoip",
+                  "geolocation",
+                  "ip",
+                  "lacnic",
+                  "nginx",
+                  "ripe-ncc",
+                  "ripencc"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1302,12 +2319,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "This repository contains the data behind our Security, Privacy and Parental Control features.",
+                "homepage": "https://nextdns.io",
                 "id": 175671496,
                 "language": null,
+                "license": null,
                 "last_commit": "2023-01-20T13:17:37Z",
+                "open_issues": 238,
                 "owner": "nextdns",
                 "repo": "metadata",
-                "stars": 671
+                "stars": 671,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1318,12 +2340,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Blacklist of common words for web applications that give out subdomains to their users",
+                "homepage": null,
                 "id": 3109151,
                 "language": null,
+                "license": null,
                 "last_commit": "2021-06-03T01:30:53Z",
+                "open_issues": 2,
                 "owner": "sandeepshetty",
                 "repo": "subdomain-blacklist",
-                "stars": 43
+                "stars": 43,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -1341,12 +2368,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.",
+                "homepage": "https://reacher.email",
                 "id": 89359792,
                 "language": "Rust",
+                "license": "NOASSERTION",
                 "last_commit": "2026-03-17T15:14:47Z",
+                "open_issues": 88,
                 "owner": "reacherhq",
                 "repo": "check-if-email-exists",
-                "stars": 9492
+                "stars": 9494,
+                "topics": [
+                  "email",
+                  "email-validation",
+                  "email-validation-api",
+                  "email-verification",
+                  "email-verification-api",
+                  "email-verifier",
+                  "hacktoberfest"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1357,12 +2397,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": ":mailbox: Cross-language temporary (disposable/throwaway) email detection library. Covers 55 734+ fake email providers.",
+                "homepage": "https://twitter.com/FGRibreau",
                 "id": 8557809,
                 "language": "PHP",
+                "license": "MIT",
                 "last_commit": "2026-08-28T13:18:03Z",
+                "open_issues": 4,
                 "owner": "FGRibreau",
                 "repo": "mailchecker",
-                "stars": 1904
+                "stars": 1904,
+                "topics": [
+                  "email",
+                  "email-validation",
+                  "email-verification"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1373,12 +2422,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A list of temporary email providers",
+                "homepage": null,
                 "id": 49589553,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2026-07-20T17:39:15Z",
+                "open_issues": 25,
                 "owner": "wesbos",
                 "repo": "burner-email-providers",
-                "stars": 1189
+                "stars": 1189,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1389,12 +2443,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A ruby gem to check if the owner of a given email address or website is working for THE MAN (a.k.a verifies government domains).",
+                "homepage": "http://ben.balter.com/gman/",
                 "id": 12325212,
                 "language": "Ruby",
+                "license": "MIT",
                 "last_commit": "2025-01-15T00:18:43Z",
+                "open_issues": 10,
                 "owner": "benbalter",
                 "repo": "gman",
-                "stars": 170
+                "stars": 170,
+                "topics": [
+                  "email",
+                  "government"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -1412,12 +2474,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "List of Dirty, Naughty, Obscene, and Otherwise Bad Words",
+                "homepage": null,
                 "id": 3666605,
                 "language": null,
+                "license": "CC-BY-4.0",
                 "last_commit": "2024-08-05T08:32:35Z",
+                "open_issues": 105,
                 "owner": "LDNOOBW",
                 "repo": "List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
-                "stars": 3434
+                "stars": 3434,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             },
@@ -1428,12 +2495,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A fast, robust Python library to check for offensive language in strings.",
+                "homepage": "https://pypi.org/project/profanity-check",
                 "id": 163343785,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2024-07-27T06:55:05Z",
+                "open_issues": 24,
                 "owner": "vzhou842",
                 "repo": "profanity-check",
-                "stars": 658
+                "stars": 658,
+                "topics": [
+                  "bag-of-words",
+                  "linear-svm",
+                  "offensive-language",
+                  "profanity",
+                  "profanity-detection",
+                  "profanity-filter",
+                  "profanity-library",
+                  "python3",
+                  "scikit-learn",
+                  "sklearn"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -1455,12 +2538,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Papers from the computer science community to read and discuss.",
+            "homepage": "http://paperswelove.org/",
             "id": 15204860,
             "language": "Shell",
+            "license": null,
             "last_commit": "2026-08-24T09:14:23Z",
+            "open_issues": 3,
             "owner": "papers-we-love",
             "repo": "papers-we-love",
-            "stars": 109063
+            "stars": 109070,
+            "topics": [
+              "awesome",
+              "computer-science",
+              "meetup",
+              "papers",
+              "programming",
+              "read-papers",
+              "theory"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -1471,12 +2567,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A repository of email marketing legislation around the world, compiled by EmailOctopus.",
+            "homepage": null,
             "id": 176302747,
             "language": null,
+            "license": null,
             "last_commit": "2026-07-23T09:41:05Z",
+            "open_issues": 0,
             "owner": "threeheartsdigital",
             "repo": "email-marketing-regulations",
-            "stars": 469
+            "stars": 469,
+            "topics": [
+              "business",
+              "can-spam",
+              "casl",
+              "data-protection",
+              "dpa",
+              "email",
+              "email-marketing",
+              "gdpr",
+              "legal",
+              "legislation",
+              "lgpd",
+              "marketing",
+              "pecr",
+              "startups"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -1489,12 +2605,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data. Supports NLP, pattern matching, and customizable pipelines.",
+                "homepage": "https://presidio.dataprivacystack.org",
                 "id": 132129752,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-26T17:35:40Z",
+                "open_issues": 108,
                 "owner": "data-privacy-stack",
                 "repo": "presidio",
-                "stars": 10670
+                "stars": 10670,
+                "topics": [
+                  "anonymization",
+                  "data-anonymization",
+                  "data-masking",
+                  "data-obfuscation",
+                  "data-privacy",
+                  "data-redaction",
+                  "de-identification",
+                  "guardrails",
+                  "image-redactor",
+                  "named-entity-recognition",
+                  "nlp",
+                  "personally-identifiable-information",
+                  "phi",
+                  "pii",
+                  "pii-detection",
+                  "privacy",
+                  "python",
+                  "sensitive-data",
+                  "spacy",
+                  "transformers"
+                ]
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -1512,12 +2654,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The CNIL publishes a GDPR guide for developers",
+                "homepage": "https://lincnil.github.io/GDPR-Developer-Guide/",
                 "id": 271484285,
                 "language": "HTML",
+                "license": "GPL-3.0",
                 "last_commit": "2022-12-08T04:57:14Z",
+                "open_issues": 3,
                 "owner": "LINCnil",
                 "repo": "GDPR-Developer-Guide",
-                "stars": 359
+                "stars": 359,
+                "topics": []
               },
               "first_seen": "2026-08-28T22:17:18.762Z"
             }
@@ -1539,12 +2686,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The Google Cloud Developer's Cheat Sheet",
+            "homepage": null,
             "id": 159385677,
             "language": null,
+            "license": "NOASSERTION",
             "last_commit": "2024-04-06T10:56:15Z",
+            "open_issues": 58,
             "owner": "priyankavergadia",
             "repo": "google-cloud-4-words",
-            "stars": 8216
+            "stars": 8216,
+            "topics": []
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         },
@@ -1555,12 +2707,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A ranked list of awesome Digital Identity open source projects",
+            "homepage": null,
             "id": 626861341,
             "language": null,
+            "license": "CC-BY-SA-4.0",
             "last_commit": "2026-08-28T04:50:39Z",
+            "open_issues": 1,
             "owner": "jruizaranguren",
             "repo": "best-of-digital-identity",
-            "stars": 190
+            "stars": 190,
+            "topics": [
+              "access-control",
+              "auth",
+              "authentication",
+              "authorization",
+              "decentralized-identity",
+              "did",
+              "digital-identity",
+              "iam",
+              "identity",
+              "identity-management",
+              "identity-provider",
+              "idp",
+              "oidc",
+              "oidc4vci",
+              "passwordless",
+              "pki",
+              "self-sovereign-identity",
+              "ssi",
+              "verifiable-credentials",
+              "webauthn"
+            ]
           },
           "first_seen": "2026-08-28T22:17:18.762Z"
         }
@@ -1569,15 +2747,41 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T22:17:18.762Z",
+    "last_updated": "2026-08-29T04:25:52.785Z",
     "original_repository_info": {
       "archived": false,
+      "description": "👤 Identity and Access Management knowledge for cloud platforms",
+      "homepage": null,
       "id": 191515681,
       "language": null,
+      "license": "CC0-1.0",
       "last_commit": "2026-08-14T14:15:27Z",
+      "open_issues": 4,
       "owner": "kdeldycke",
       "repo": "awesome-iam",
-      "stars": 2262
+      "stars": 2262,
+      "topics": [
+        "abac",
+        "anonymization",
+        "awesome",
+        "awesome-list",
+        "fido2",
+        "hardware-security-module",
+        "iam",
+        "identity-management",
+        "identity-provider",
+        "mfa",
+        "openid",
+        "passkeys",
+        "passwordless",
+        "pki",
+        "saml",
+        "scim",
+        "secret-management",
+        "totp",
+        "webauthn",
+        "zero-trust"
+      ]
     },
     "original_repository_sha": "ede0dca67cb280f4ddb3ec8f6e8ebb1e3d166cb4",
     "enhanced_repository": "enhansome/enhansome-iam",
