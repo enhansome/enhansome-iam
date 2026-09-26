@@ -44,9 +44,9 @@
 
 <!--lint disable double-link-->
 
-[IAM](https://en.wikipedia.org/wiki/Identity_management) stands for Identity and Access Management. It is a complex domain which covers **user accounts, authentication, authorization, roles, permissions and privacy**. It is an essential pillar of the cloud stack, where users, products and security meets. The [other pillar being billing & payments 💰](https://github.com/kdeldycke/awesome-billing/) ⭐ 1,346 | 🐛 2 | 📅 2026-09-23.
+[IAM](https://en.wikipedia.org/wiki/Identity_management) stands for Identity and Access Management. It is a complex domain which covers **user accounts, authentication, authorization, roles, permissions and privacy**. It is an essential pillar of the cloud stack, where users, products and security meets. The [other pillar being billing & payments 💰](https://github.com/kdeldycke/awesome-billing/) ⭐ 1,347 | 🐛 2 | 📅 2026-09-23.
 
-This curated [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome) ⭐ 510,319 | 🐛 107 | 📅 2026-09-02 list expose all the technologies, protocols and jargon of the domain in a comprehensive and actionable manner.
+This curated [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome) ⭐ 510,820 | 🐛 107 | 📅 2026-09-02 list expose all the technologies, protocols and jargon of the domain in a comprehensive and actionable manner.
 
 <!--lint enable double-link-->
 
@@ -120,9 +120,9 @@ Here we set out the big picture: definition and strategic importance of the doma
 
 Security is one of the most central pillar of IAM foundations. Here are some broad concepts.
 
-* [Open guide to AWS Security and IAM](https://github.com/open-guides/og-aws#security-and-iam) ⭐ 36,469 | 🐛 158 | 🌐 Shell | 📅 2024-08-16
+* [Open guide to AWS Security and IAM](https://github.com/open-guides/og-aws#security-and-iam) ⭐ 36,470 | 🐛 158 | 🌐 Shell | 📅 2024-08-16
 
-* [Cartography](https://github.com/cartography-cncf/cartography) ⭐ 4,103 | 🐛 136 | 🌐 Python | 📅 2026-09-25 - 🆓 A Neo4J-based tool to map out dependencies and relationships between services and resources. Supports AWS, GCP, GSuite, Okta and GitHub.
+* [Cartography](https://github.com/cartography-cncf/cartography) ⭐ 4,106 | 🐛 138 | 🌐 Python | 📅 2026-09-25 - 🆓 A Neo4J-based tool to map out dependencies and relationships between services and resources. Supports AWS, GCP, GSuite, Okta and GitHub.
 
 * [Enterprise Information Security](https://infosec.mozilla.org) - Mozilla's security and access guidelines.
 
@@ -148,7 +148,7 @@ The foundation of IAM: the definition and life-cycle of users, groups, roles and
 
 The whole authentication stack is based on cryptography primitives. This can't be overlooked.
 
-* [Papers we love: Cryptography](https://github.com/papers-we-love/papers-we-love/blob/master/cryptography/README.md) ⭐ 109,987 | 🐛 4 | 🌐 Shell | 📅 2026-09-17 - Foundational papers of cryptography.
+* [Papers we love: Cryptography](https://github.com/papers-we-love/papers-we-love/blob/master/cryptography/README.md) ⭐ 110,011 | 🐛 5 | 🌐 Shell | 📅 2026-09-17 - Foundational papers of cryptography.
 
 * [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) - An up to date set of recommendations for developers who are not cryptography engineers. There's even a [shorter summary](https://news.ycombinator.com/item?id=16749140) available.
 
@@ -174,11 +174,11 @@ Tokens, primary keys, UUIDs, … Whatever the end use, you'll have to generate t
 
 Zero trust network security operates under the principle “never trust, always verify”.
 
-* [Pomerium](https://github.com/pomerium/pomerium) ⭐ 5,016 | 🐛 159 | 🌐 Go | 📅 2026-09-25 - 💸 An identity-aware proxy that enables secure access to internal applications.
+* [Pomerium](https://github.com/pomerium/pomerium) ⭐ 5,016 | 🐛 159 | 🌐 Go | 📅 2026-09-26 - 💸 An identity-aware proxy that enables secure access to internal applications.
 
 * [oathkeeper](https://github.com/ory/oathkeeper) ⭐ 3,605 | 🐛 107 | 🌐 Go | 📅 2026-07-27 - 💸 Identity & Access Proxy and Access Control Decision API that authenticates, authorizes, and mutates incoming HTTP requests. Inspired by the BeyondCorp / Zero Trust white paper.
 
-* [heimdall](https://github.com/dadrus/heimdall) ⭐ 257 | 🐛 61 | 🌐 Go | 📅 2026-09-25 - 🆓 A cloud-native, identity-aware proxy and policy enforcement point that orchestrates authentication and authorization systems via versatile rules, supporting protocol-agnostic identity propagation.
+* [heimdall](https://github.com/dadrus/heimdall) ⭐ 257 | 🐛 60 | 🌐 Go | 📅 2026-09-26 - 🆓 A cloud-native, identity-aware proxy and policy enforcement point that orchestrates authentication and authorization systems via versatile rules, supporting protocol-agnostic identity propagation.
 
 * [BeyondCorp: A New Approach to Enterprise Security](https://www.usenix.org/system/files/login/articles/login_dec14_02_ward.pdf) - Quick overview of Google's Zero-trust Network initiative.
 
@@ -188,7 +188,7 @@ Zero trust network security operates under the principle “never trust, always 
 
 Workloads, services and devices are principals too. They need identities to authenticate to one another and be granted access: the non-human counterpart to human user accounts.
 
-* [SPIFFE/SPIRE](https://github.com/spiffe/spire) ⭐ 2,554 | 🐛 119 | 🌐 Go | 📅 2026-09-24 - 🆓 A CNCF framework issuing short-lived, cryptographically-verifiable identities (SVIDs) to workloads across heterogeneous environments.
+* [SPIFFE/SPIRE](https://github.com/spiffe/spire) ⭐ 2,558 | 🐛 120 | 🌐 Go | 📅 2026-09-24 - 🆓 A CNCF framework issuing short-lived, cryptographically-verifiable identities (SVIDs) to workloads across heterogeneous environments.
 
 * [NanoMDM](https://github.com/micromdm/nanomdm) ⭐ 662 | 🐛 12 | 🌐 Go | 📅 2026-09-23 - 🆓 Minimalist Apple MDM server and library to enroll and manage the identity of Apple devices, inspired by MicroMDM.
 
@@ -206,7 +206,7 @@ Protocols and technologies to verify that you are who you pretend to be.
 
 The oldest scheme for auth.
 
-* [Password Manager Resources](https://github.com/apple/password-manager-resources) ⭐ 4,864 | 🐛 113 | 🌐 JavaScript | 📅 2026-09-25 - 🆓 A collection of password rules, change URLs and quirks by sites.
+* [Password Manager Resources](https://github.com/apple/password-manager-resources) ⭐ 4,865 | 🐛 115 | 🌐 JavaScript | 📅 2026-09-25 - 🆓 A collection of password rules, change URLs and quirks by sites.
 
 * [Dumb Password Rules](https://github.com/duffn/dumb-password-rules) ⭐ 3,020 | 🐛 63 | 🌐 Nunjucks | 📅 2026-09-08 - 🆓 Shaming sites with dumb password rules.
 
@@ -228,9 +228,9 @@ The oldest scheme for auth.
 
 Building upon password-only auth, users are requested in these schemes to present two or more pieces of evidence (or factors).
 
-* [Authelia](https://github.com/authelia/authelia) ⭐ 29,086 | 🐛 130 | 🌐 Go | 📅 2026-09-25 - 🆓 Open-source authentication and authorization server providing two-factor authentication and single sign-on (SSO) for your applications via a web portal.
+* [Authelia](https://github.com/authelia/authelia) ⭐ 29,093 | 🐛 128 | 🌐 Go | 📅 2026-09-26 - 🆓 Open-source authentication and authorization server providing two-factor authentication and single sign-on (SSO) for your applications via a web portal.
 
-* [Kanidm](https://github.com/kanidm/kanidm) ⭐ 5,407 | 🐛 262 | 🌐 Rust | 📅 2026-09-24 - 🆓 Simple, secure and fast identity management platform.
+* [Kanidm](https://github.com/kanidm/kanidm) ⭐ 5,412 | 🐛 262 | 🌐 Rust | 📅 2026-09-24 - 🆓 Simple, secure and fast identity management platform.
 
 * [Breaking Password Dependencies: Challenges in the Final Mile at Microsoft](https://www.youtube.com/watch?v=B_mhJO2qHlQ) - The primary source of account hacks is password spraying (on legacy auth like SMTP, IMAP, POP, etc.), second is replay attack. Takeaway: password are insecure, use and enforce MFA.
 
@@ -284,9 +284,9 @@ Part of the [FIDO2 project](https://en.wikipedia.org/wiki/FIDO_Alliance#FIDO2), 
 
 ### Security key
 
-* [YubiKey Guide](https://github.com/drduh/YubiKey-Guide) ⭐ 12,478 | 🐛 7 | 🌐 HTML | 📅 2026-09-21 - Guide to using YubiKey as a SmartCard for storing GPG encryption, signing and authentication keys, which can also be used for SSH. Many of the principles in this document are applicable to other smart card devices.
+* [YubiKey Guide](https://github.com/drduh/YubiKey-Guide) ⭐ 12,481 | 🐛 7 | 🌐 HTML | 📅 2026-09-21 - Guide to using YubiKey as a SmartCard for storing GPG encryption, signing and authentication keys, which can also be used for SSH. Many of the principles in this document are applicable to other smart card devices.
 
-* [OpenSK](https://github.com/google/OpenSK) ⭐ 3,432 | 🐛 12 | 🌐 Rust | 📅 2026-09-04 - 🆓 Open-source implementation for security keys written in Rust that supports both FIDO U2F and FIDO2 standards.
+* [OpenSK](https://github.com/google/OpenSK) ⭐ 3,434 | 🐛 12 | 🌐 Rust | 📅 2026-09-04 - 🆓 Open-source implementation for security keys written in Rust that supports both FIDO U2F and FIDO2 standards.
 
 * [Webauthn and security keys](https://www.imperialviolet.org/2018/03/27/webauthn.html) - Describe how authentication works with security keys, details the protocols, and how they articulates with WebAuthn. Key takeaway: “There is no way to create a U2F key with webauthn however. (…) So complete the transition to webauthn of your login process first, then transition registration.”
 
@@ -298,7 +298,7 @@ Certificate-based authentication.
 
 * [CFSSL](https://github.com/cloudflare/cfssl) ⭐ 9,475 | 🐛 334 | 🌐 Go | 📅 2026-09-23 - 🆓 A swiss army knife for PKI/TLS by CloudFlare. Command line tool and an HTTP API server for signing, verifying, and bundling TLS certificates.
 
-* [JA4+](https://github.com/FoxIO-LLC/ja4) ⭐ 2,100 | 🐛 21 | 🌐 Rust | 📅 2026-09-22 - 💸 A suite of network fingerprinting methods to facilitate threat-hunting and analysis.
+* [JA4+](https://github.com/FoxIO-LLC/ja4) ⭐ 2,101 | 🐛 21 | 🌐 Rust | 📅 2026-09-22 - 💸 A suite of network fingerprinting methods to facilitate threat-hunting and analysis.
 
 * [`lemur`](https://github.com/Netflix/lemur) ⚠️ Archived - 🆓 Acts as a broker between CAs and environments, providing a central portal for developers to issue TLS certificates with 'sane' defaults.
 
@@ -358,11 +358,11 @@ As a concept, access control policies can be designed to follow very different a
 
 [Role-Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control) is the classical model to map users to permissions by the way of roles.
 
-* [Cerbos](https://github.com/cerbos/cerbos) ⭐ 4,594 | 🐛 60 | 🌐 Go | 📅 2026-09-25 - 💸 An authorization endpoint to write context-aware access control policies.
+* [Cerbos](https://github.com/cerbos/cerbos) ⭐ 4,593 | 🐛 60 | 🌐 Go | 📅 2026-09-25 - 💸 An authorization endpoint to write context-aware access control policies.
 
-* [Athenz](https://github.com/AthenZ/athenz) ⭐ 1,008 | 🐛 49 | 🌐 Java | 📅 2026-09-25 - 🆓 Set of services and libraries supporting service authentication and role-based authorization for provisioning and configuration.
+* [Athenz](https://github.com/AthenZ/athenz) ⭐ 1,008 | 🐛 48 | 🌐 Java | 📅 2026-09-25 - 🆓 Set of services and libraries supporting service authentication and role-based authorization for provisioning and configuration.
 
-* [FerrisKey](https://github.com/ferriskey/ferriskey) ⭐ 707 | 🐛 92 | 🌐 Rust | 📅 2026-09-25 - 🆓 Self-hosted, open-source, RBAC system written in Rust.
+* [FerrisKey](https://github.com/ferriskey/ferriskey) ⭐ 709 | 🐛 90 | 🌐 Rust | 📅 2026-09-25 - 🆓 Self-hosted, open-source, RBAC system written in Rust.
 
 * [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Merges concepts from cookies, JWTs, macaroons and Open Policy Agent. “It provide a logic language based on Datalog to write authorization policies. It can store data, like JWT, or small conditions like Macaroons, but it is also able to represent more complex rules like role-based access control, delegation, hierarchies.”
 
@@ -370,9 +370,9 @@ As a concept, access control policies can be designed to follow very different a
 
 [Attribute-Based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control) is an evolution of RBAC, in which roles are replaced by attributes, allowing the implementation of more complex policy-based access control.
 
-* [Casbin](https://github.com/apache/casbin) ⭐ 20,403 | 🐛 39 | 🌐 Go | 📅 2026-09-11 - 🆓 Open-source access control library for Golang projects.
+* [Casbin](https://github.com/apache/casbin) ⭐ 20,407 | 🐛 39 | 🌐 Go | 📅 2026-09-11 - 🆓 Open-source access control library for Golang projects.
 
-* [Open Policy Agent](https://github.com/open-policy-agent/opa) ⭐ 12,271 | 🐛 304 | 🌐 Go | 📅 2026-09-25 - 🆓 An open-source general-purpose decision engine to create and enforce ABAC policies.
+* [Open Policy Agent](https://github.com/open-policy-agent/opa) ⭐ 12,275 | 🐛 305 | 🌐 Go | 📅 2026-09-26 - 🆓 An open-source general-purpose decision engine to create and enforce ABAC policies.
 
 * [Keto](https://github.com/ory/keto) ⭐ 5,404 | 🐛 74 | 🌐 Go | 📅 2026-09-04 - 💸 Policy decision point. It uses a set of access control policies, similar to AWS policies, in order to determine whether a subject is authorized to perform a certain action on a resource.
 
@@ -382,13 +382,13 @@ As a concept, access control policies can be designed to follow very different a
 
 The [Relationship-Based Access Control](https://en.wikipedia.org/wiki/Relationship-based_access_control) model is a more flexible and powerful version of RBAC and is the preferred one for cloud systems.
 
-* [SpiceDB](https://github.com/authzed/spicedb) ⭐ 7,093 | 🐛 168 | 🌐 Go | 📅 2026-09-24 - 💸 An open source database system for managing security-critical application permissions inspired by Zanzibar.
+* [SpiceDB](https://github.com/authzed/spicedb) ⭐ 7,098 | 🐛 169 | 🌐 Go | 📅 2026-09-24 - 💸 An open source database system for managing security-critical application permissions inspired by Zanzibar.
 
-* [Permify](https://github.com/Permify/permify) ⭐ 5,956 | 🐛 84 | 🌐 Go | 📅 2026-09-23 - 💸 Another open-source authorization as a service inspired by Google Zanzibar, and see [how it compares to other Zanzibar-inspired tools](https://permify.notion.site/Differentiation-Between-Zanzibar-Products-ad4732da62e64655bc82d3abe25f48b6).
+* [Permify](https://github.com/Permify/permify) ⭐ 5,958 | 🐛 85 | 🌐 Go | 📅 2026-09-23 - 💸 Another open-source authorization as a service inspired by Google Zanzibar, and see [how it compares to other Zanzibar-inspired tools](https://permify.notion.site/Differentiation-Between-Zanzibar-Products-ad4732da62e64655bc82d3abe25f48b6).
 
-* [Open Policy Administration Layer](https://github.com/permitio/opal) ⭐ 5,513 | 🐛 65 | 🌐 Python | 📅 2026-09-25 - 💸 Open Source administration layer for OPA, detecting changes to both policy and policy data in realtime and pushing live updates to OPA agents. OPAL brings open-policy up to the speed needed by live applications.
+* [Open Policy Administration Layer](https://github.com/permitio/opal) ⭐ 5,512 | 🐛 65 | 🌐 Python | 📅 2026-09-25 - 💸 Open Source administration layer for OPA, detecting changes to both policy and policy data in realtime and pushing live updates to OPA agents. OPAL brings open-policy up to the speed needed by live applications.
 
-* [Topaz](https://github.com/aserto-dev/topaz) ⭐ 1,361 | 🐛 12 | 🌐 Go | 📅 2026-09-24 - 💸 An open-source project which combines the policy-as-code and decision logging of OPA with a Zanzibar-modeled directory.
+* [Topaz](https://github.com/aserto-dev/topaz) ⭐ 1,361 | 🐛 13 | 🌐 Go | 📅 2026-09-24 - 💸 An open-source project which combines the policy-as-code and decision logging of OPA with a Zanzibar-modeled directory.
 
 * [Zanzibar: Google's Consistent, Global Authorization System](https://web.archive.org/web/20191207160155/https://ai.google/research/pubs/pub48190) - Scales to trillions of access control lists and millions of authorization requests per second to support services used by billions of people. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of greater than 99.999% over 3 years of production use. [Other bits not in the paper](https://nitter.tiekoetter.com/LeaKissner/status/1136626971566149633). [Zanzibar Academy](https://zanzibar.academy/) is a site dedicated to explaining how Zanzibar works.
 
@@ -396,9 +396,9 @@ The [Relationship-Based Access Control](https://en.wikipedia.org/wiki/Relationsh
 
 Tools and resources exclusively targeting the [AWS IAM policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) ecosystem.
 
-* [Policy Sentry](https://github.com/salesforce/policy_sentry) ⭐ 2,169 | 🐛 12 | 🌐 Python | 📅 2026-09-01 - 🆓 Writing security-conscious IAM Policies by hand can be very tedious and inefficient. Policy Sentry helps users to create least-privilege policies in a matter of seconds.
+* [Policy Sentry](https://github.com/salesforce/policy_sentry) ⭐ 2,170 | 🐛 12 | 🌐 Python | 📅 2026-09-01 - 🆓 Writing security-conscious IAM Policies by hand can be very tedious and inefficient. Policy Sentry helps users to create least-privilege policies in a matter of seconds.
 
-* [IAM Floyd](https://github.com/udondan/iam-floyd) ⭐ 571 | 🐛 8 | 🌐 TypeScript | 📅 2026-09-25 - 🆓 AWS IAM policy statement generator with fluent interface. Helps with creating type safe IAM policies and writing more restrictive/secure statements by offering conditions and ARN generation via IntelliSense. Available for Node.js, Python, .Net and Java.
+* [IAM Floyd](https://github.com/udondan/iam-floyd) ⭐ 571 | 🐛 8 | 🌐 TypeScript | 📅 2026-09-26 - 🆓 AWS IAM policy statement generator with fluent interface. Helps with creating type safe IAM policies and writing more restrictive/secure statements by offering conditions and ARN generation via IntelliSense. Available for Node.js, Python, .Net and Java.
 
 * [IAMbic](https://github.com/noqdev/iambic) ⭐ 304 | 🐛 46 | 🌐 Python | 📅 2024-11-27 - 💸 GitOps for IAM. The Terraform of Cloud IAM. IAMbic is a multi-cloud identity and access management (IAM) control plane that centralizes and simplifies cloud access and permissions. It maintains an eventually consistent, human-readable, bi-directional representation of IAM in version control.
 
@@ -428,15 +428,15 @@ A clever curiosity to distribute and delegate authorization.
 
 The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
-* [Keycloak](https://github.com/keycloak/keycloak) ⭐ 36,987 | 🐛 3,243 | 🌐 Java | 📅 2026-09-25 - 🆓 Open-source Identity and Access Management. Supports OIDC, OAuth 2 and SAML 2, LDAP and AD directories, password policies.
+* [Keycloak](https://github.com/keycloak/keycloak) ⭐ 36,996 | 🐛 3,258 | 🌐 Java | 📅 2026-09-26 - 🆓 Open-source Identity and Access Management. Supports OIDC, OAuth 2 and SAML 2, LDAP and AD directories, password policies.
 
-* [authentik](https://github.com/goauthentik/authentik) ⭐ 25,722 | 🐛 1,112 | 🌐 Python | 📅 2026-09-25 - 💸 Open-source Identity Provider similar to Keycloak.
+* [authentik](https://github.com/goauthentik/authentik) ⭐ 25,732 | 🐛 1,110 | 🌐 Python | 📅 2026-09-26 - 💸 Open-source Identity Provider similar to Keycloak.
 
 * [Hydra](https://github.com/ory/hydra) ⭐ 17,567 | 🐛 95 | 🌐 Go | 📅 2026-07-29 - 💸 Open-source OIDC & OAuth2 Server Provider.
 
-* [ZITADEL](https://github.com/zitadel/zitadel) ⭐ 15,103 | 🐛 1,222 | 🌐 Go | 📅 2026-09-25 - 💸 An Open-Source solution built with Go and Angular to manage all your systems, users and service accounts together with their roles and external identities. ZITADEL provides you with OIDC, OAuth 2.0, login & register flows, passwordless and MFA authentication. All this is built on top of eventsourcing in combination with CQRS to provide a great audit trail.
+* [ZITADEL](https://github.com/zitadel/zitadel) ⭐ 15,110 | 🐛 1,222 | 🌐 Go | 📅 2026-09-25 - 💸 An Open-Source solution built with Go and Angular to manage all your systems, users and service accounts together with their roles and external identities. ZITADEL provides you with OIDC, OAuth 2.0, login & register flows, passwordless and MFA authentication. All this is built on top of eventsourcing in combination with CQRS to provide a great audit trail.
 
-* [Casdoor](https://github.com/casdoor/casdoor) ⭐ 14,471 | 🐛 99 | 🌐 Go | 📅 2026-09-25 - 🆓 A UI-first centralized authentication / Single-Sign-On (SSO) platform. Supports OAuth 2, OIDC, SAML 2, CAS, LDAP and SCIM, social logins, user management, WebAuthn and TOTP/MFA.
+* [Casdoor](https://github.com/casdoor/casdoor) ⭐ 14,474 | 🐛 99 | 🌐 Go | 📅 2026-09-26 - 🆓 A UI-first centralized authentication / Single-Sign-On (SSO) platform. Supports OAuth 2, OIDC, SAML 2, CAS, LDAP and SCIM, social logins, user management, WebAuthn and TOTP/MFA.
 
 * [obligator](https://github.com/lastlogin-net/obligator) ⭐ 841 | 🐛 32 | 🌐 Go | 📅 2026-01-20 - 🆓 Simple and opinionated OpenID Connect server designed for self-hosters. Single static binary with flat-file or SQLite storage.
 
@@ -486,15 +486,15 @@ Typical SAML identity provider is an institution or a big corporation's internal
 
 Architectures, software and hardware allowing the storage and usage of secrets to allow for authentication and authorization, while maintaining the chain of trust.
 
-* [HashiCorp Vault](https://github.com/hashicorp/vault) ⭐ 36,294 | 🐛 1,443 | 🌐 Go | 📅 2026-09-25 - 💸 Secure, store and tightly control access to tokens, passwords, certificates, encryption keys.
+* [HashiCorp Vault](https://github.com/hashicorp/vault) ⭐ 36,300 | 🐛 1,444 | 🌐 Go | 📅 2026-09-25 - 💸 Secure, store and tightly control access to tokens, passwords, certificates, encryption keys.
 
-* [`gitleaks`](https://github.com/gitleaks/gitleaks) ⭐ 29,481 | 🐛 484 | 🌐 Go | 📅 2026-09-23 - 🆓 Audit Git repos for secrets.
+* [`gitleaks`](https://github.com/gitleaks/gitleaks) ⭐ 29,494 | 🐛 484 | 🌐 Go | 📅 2026-09-23 - 🆓 Audit Git repos for secrets.
 
-* [Infisical](https://github.com/Infisical/infisical) ⭐ 29,431 | 🐛 792 | 🌐 TypeScript | 📅 2026-09-25 - 💸 An alternative to HashiCorp Vault.
+* [Infisical](https://github.com/Infisical/infisical) ⭐ 29,451 | 🐛 787 | 🌐 TypeScript | 📅 2026-09-26 - 💸 An alternative to HashiCorp Vault.
 
-* [`trufflehog`](https://github.com/trufflesecurity/trufflehog) ⭐ 28,052 | 🐛 552 | 🌐 Go | 📅 2026-09-25 - 💸 Searches through Git repositories for high entropy strings and secrets, digging deep into commit history.
+* [`trufflehog`](https://github.com/trufflesecurity/trufflehog) ⭐ 28,061 | 🐛 555 | 🌐 Go | 📅 2026-09-26 - 💸 Searches through Git repositories for high entropy strings and secrets, digging deep into commit history.
 
-* [`sops`](https://github.com/getsops/sops) ⭐ 23,216 | 🐛 448 | 🌐 Go | 📅 2026-09-21 - 🆓 Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and PGP.
+* [`sops`](https://github.com/getsops/sops) ⭐ 23,226 | 🐛 448 | 🌐 Go | 📅 2026-09-21 - 🆓 Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and PGP.
 
 * [Secret at Scale at Netflix](https://www.youtube.com/watch?v=K0EOPddWpsE) - Solution based on blind signatures. See the [slides](https://web.archive.org/web/20251203022343/https://rwc.iacr.org/2018/Slides/Mehta.pdf).
 
@@ -504,9 +504,9 @@ Architectures, software and hardware allowing the storage and usage of secrets t
 
 HSMs are physical devices guaranteeing security of secret management at the hardware level.
 
-* [Project Oak](https://github.com/project-oak/oak) ⭐ 1,504 | 🐛 17 | 🌐 Rust | 📅 2026-09-24 - 🆓 A specification and a reference implementation for the secure transfer, storage and processing of data.
+* [Project Oak](https://github.com/project-oak/oak) ⭐ 1,505 | 🐛 18 | 🌐 Rust | 📅 2026-09-25 - 🆓 A specification and a reference implementation for the secure transfer, storage and processing of data.
 
-* [Keystone](https://github.com/keystone-enclave/keystone) ⭐ 536 | 🐛 119 | 🌐 C | 📅 2026-08-03 - 🆓 Open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture.
+* [Keystone](https://github.com/keystone-enclave/keystone) ⭐ 537 | 🐛 119 | 🌐 C | 📅 2026-08-03 - 🆓 Open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture.
 
 * [HSM: What they are and why it's likely that you've (indirectly) used one today](https://web.archive.org/web/20260404010649/https://rwc.iacr.org/2015/Slides/RWC-2015-Hampton.pdf) - Really basic overview of HSM usages.
 
@@ -526,7 +526,7 @@ A critical intermediation complex driven by a policy and constraint by local law
 
 <!--lint disable double-link-->
 
-* [Awesome List of Billing and Payments: Fraud links](https://github.com/kdeldycke/awesome-billing#fraud) ⭐ 1,346 | 🐛 2 | 📅 2026-09-23 - Section dedicated to fraud management for billing and payment, from our sister repository.
+* [Awesome List of Billing and Payments: Fraud links](https://github.com/kdeldycke/awesome-billing#fraud) ⭐ 1,347 | 🐛 2 | 📅 2026-09-23 - Section dedicated to fraud management for billing and payment, from our sister repository.
 
 <!--lint enable double-link-->
 
@@ -534,7 +534,7 @@ A critical intermediation complex driven by a policy and constraint by local law
 
 Most businesses do not collect customer's identity to create user profiles to sell to third party, no. But you still have to: local laws require to keep track of contract relationships under the large [Know You Customer (KYC)](https://en.wikipedia.org/wiki/Know_your_customer) banner.
 
-* [Sherlock](https://github.com/sherlock-project/sherlock) ⭐ 92,740 | 🐛 350 | 🌐 Python | 📅 2026-09-25 - 🆓 Hunt down social media accounts by username across social networks.
+* [Sherlock](https://github.com/sherlock-project/sherlock) ⭐ 92,813 | 🐛 350 | 🌐 Python | 📅 2026-09-26 - 🆓 Hunt down social media accounts by username across social networks.
 
 * [Ballerine](https://github.com/ballerine-io/ballerine) ⭐ 2,436 | 🐛 20 | 🌐 TypeScript | 📅 2026-09-17 - 💸 An open-source infrastructure for user identity and risk management.
 
@@ -552,7 +552,7 @@ Most businesses do not collect customer's identity to create user profiles to se
 
 As an online service provider, you're exposed to fraud, crime and abuses. You'll be surprised by how much people gets clever when it comes to money. Expect any bug or discrepancies in your workflow to be exploited for financial gain.
 
-* [Gephi](https://github.com/gephi/gephi) ⭐ 6,658 | 🐛 444 | 🌐 Java | 📅 2026-09-20 - 🆓 Open-source platform for visualizing and manipulating large graphs.
+* [Gephi](https://github.com/gephi/gephi) ⭐ 6,656 | 🐛 446 | 🌐 Java | 📅 2026-09-26 - 🆓 Open-source platform for visualizing and manipulating large graphs.
 
 * [MIDAS: Detecting Microcluster Anomalies in Edge Streams](https://github.com/Stream-AD/MIDAS) ⭐ 777 | 🐛 3 | 🌐 C++ | 📅 2024-01-10 - 🆓 A proposed method to “detects microcluster anomalies, or suddenly arriving groups of suspiciously similar edges, in edge streams, using constant time and memory.”
 
@@ -576,15 +576,15 @@ Any online communities, not only those related to gaming and social networks, re
 
 How to detect, unmask and classify offensive online activities. Most of the time these are monitored by security, networking and/or infrastructure engineering teams. Still, these are good resources for T\&S and IAM people, who might be called upon for additional expertise for analysis and handling of threats.
 
-* [SecLists](https://github.com/danielmiessler/SecLists) ⭐ 73,721 | 🐛 8 | 🌐 PHP | 📅 2026-09-25 - 🆓 Collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
+* [SecLists](https://github.com/danielmiessler/SecLists) ⭐ 73,736 | 🐛 9 | 🌐 PHP | 📅 2026-09-26 - 🆓 Collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 
-* [Maigret](https://github.com/soxoj/maigret) ⭐ 37,963 | 🐛 65 | 🌐 Python | 📅 2026-09-25 - 🆓 “Collect a dossier on a person by username from 3000+ sites”, useful for account enumeration and unmasking fraud or abuse.
+* [Maigret](https://github.com/soxoj/maigret) ⭐ 37,989 | 🐛 65 | 🌐 Python | 📅 2026-09-26 - 🆓 “Collect a dossier on a person by username from 3000+ sites”, useful for account enumeration and unmasking fraud or abuse.
 
-* [PhoneInfoga](https://github.com/sundowndev/PhoneInfoga) ⭐ 17,980 | 🐛 147 | 🌐 Go | 📅 2026-08-25 - 🆓 Tools to scan phone numbers using only free resources. The goal is to first gather standard information such as country, area, carrier and line type on any international phone numbers with a very good accuracy. Then search for footprints on search engines to try to find the VoIP provider or identify the owner.
+* [PhoneInfoga](https://github.com/sundowndev/PhoneInfoga) ⭐ 17,987 | 🐛 147 | 🌐 Go | 📅 2026-08-25 - 🆓 Tools to scan phone numbers using only free resources. The goal is to first gather standard information such as country, area, carrier and line type on any international phone numbers with a very good accuracy. Then search for footprints on search engines to try to find the VoIP provider or identify the owner.
 
-* [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) ⭐ 10,675 | 🐛 139 | 📅 2026-05-31 - “A concise definition of Threat Intelligence: evidence-based knowledge, including context, mechanisms, indicators, implications and actionable advice, about an existing or emerging menace or hazard to assets that can be used to inform decisions regarding the subject's response to that menace or hazard.”
+* [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) ⭐ 10,676 | 🐛 140 | 📅 2026-05-31 - “A concise definition of Threat Intelligence: evidence-based knowledge, including context, mechanisms, indicators, implications and actionable advice, about an existing or emerging menace or hazard to assets that can be used to inform decisions regarding the subject's response to that menace or hazard.”
 
-* [OSINT Stuff Tool Collection](https://github.com/cipher387/osint_stuff_tool_collection) ⭐ 8,874 | 🐛 100 | 🌐 HTML | 📅 2026-05-12 - “A collection of several hundred online tools for OSINT”: domain, IP, email, username and social-network lookups useful for unmasking fraud and abuse.
+* [OSINT Stuff Tool Collection](https://github.com/cipher387/osint_stuff_tool_collection) ⭐ 8,875 | 🐛 101 | 🌐 HTML | 📅 2026-05-12 - “A collection of several hundred online tools for OSINT”: domain, IP, email, username and social-network lookups useful for unmasking fraud and abuse.
 
 * [The challenges of file formats](https://speakerdeck.com/ange/the-challenges-of-file-formats) - At one point you will let users upload files in your system. Here is a [corpus of suspicious media files](https://github.com/corkami/pocs) ⭐ 1,559 | 🐛 7 | 🌐 Assembly | 📅 2024-12-22 that can be leveraged by scammers =to bypass security or fool users.
 
@@ -604,7 +604,7 @@ How to detect, unmask and classify offensive online activities. Most of the time
 
 Another line of defense against spammers.
 
-* [Anubis](https://github.com/TecharoHQ/anubis) ⭐ 22,672 | 🐛 380 | 🌐 Go | 📅 2026-09-24 - 🆓 An open-source solution to protect upstream resources from scraper bots.
+* [Anubis](https://github.com/TecharoHQ/anubis) ⭐ 22,690 | 🐛 379 | 🌐 Go | 📅 2026-09-24 - 🆓 An open-source solution to protect upstream resources from scraper bots.
 
 * [Awesome Captcha](https://github.com/ZYSzys/awesome-captcha) ⭐ 1,428 | 🐛 9 | 🌐 JavaScript | 📅 2026-09-10 - Reference all open-source captcha libraries, integration, alternatives and cracking tools.
 
@@ -626,13 +626,13 @@ The first mechanical line of defense against abuses consist in plain and simple 
 
 Useful to identified clients, catch and block swarms of bots, and limit effects of dDOS.
 
-* [`hosts`](https://github.com/StevenBlack/hosts) ⭐ 31,106 | 🐛 154 | 🌐 Python | 📅 2026-09-23 - 🆓 Consolidates reputable hosts files, and merges them into a unified hosts file with duplicates removed.
+* [`hosts`](https://github.com/StevenBlack/hosts) ⭐ 31,107 | 🐛 155 | 🌐 Python | 📅 2026-09-25 - 🆓 Consolidates reputable hosts files, and merges them into a unified hosts file with duplicates removed.
 
-* [The Public Suffix List](https://github.com/publicsuffix/list) ⭐ 2,946 | 🐛 69 | 🌐 Go | 📅 2026-09-24 - 🆓 Mozilla's registry of public suffixes, under which Internet users can (or historically could) directly register names.
+* [The Public Suffix List](https://github.com/publicsuffix/list) ⭐ 2,952 | 🐛 69 | 🌐 Go | 📅 2026-09-24 - 🆓 Mozilla's registry of public suffixes, under which Internet users can (or historically could) directly register names.
 
 * [Country IP Blocks](https://github.com/herrbischoff/country-ip-blocks) ⚠️ Archived - 🆓 CIDR country-level IP data, straight from the Regional Internet Registries, updated hourly.
 
-* [`nextdns/metadata`](https://github.com/nextdns/metadata) ⭐ 672 | 🐛 240 | 📅 2023-01-20 - 💸 Extensive collection of list for security, privacy and parental control.
+* [`nextdns/metadata`](https://github.com/nextdns/metadata) ⭐ 672 | 🐛 241 | 📅 2023-01-20 - 💸 Extensive collection of list for security, privacy and parental control.
 
 * Subdomain denylists: [#1](https://gist.github.com/artgon/5366868), [#2](https://github.com/sandeepshetty/subdomain-blacklist/blob/master/subdomain-blacklist.txt) ⭐ 43 | 🐛 2 | 📅 2021-06-03, [#3](https://github.com/nccgroup/typofinder/blob/master/TypoMagic/datasources/subdomains.txt) ⭐ 165 | 🐛 14 | 🌐 Python | 📅 2023-11-15.
 
@@ -644,11 +644,11 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 
 ### Emails
 
-* [`check-if-email-exists`](https://github.com/reacherhq/check-if-email-exists) ⭐ 10,009 | 🐛 89 | 🌐 Rust | 📅 2026-03-17 - 💸 Verify an email address's reachability over SMTP without sending anything, catching typos, disposable domains and role accounts at signup.
+* [`check-if-email-exists`](https://github.com/reacherhq/check-if-email-exists) ⭐ 10,022 | 🐛 89 | 🌐 Rust | 📅 2026-03-17 - 💸 Verify an email address's reachability over SMTP without sending anything, catching typos, disposable domains and role accounts at signup.
 
 * [MailChecker](https://github.com/FGRibreau/mailchecker) ⭐ 1,908 | 🐛 4 | 🌐 PHP | 📅 2026-09-25 - 💸 Cross-language temporary (disposable/throwaway) email detection library.
 
-* [Burner email providers](https://github.com/wesbos/burner-email-providers) ⭐ 1,192 | 🐛 26 | 🌐 JavaScript | 📅 2026-07-20 - 🆓 A list of temporary email providers. And its [derivative Python module](https://github.com/disposable-email-domains/disposable-email-domains) ⭐ 5,529 | 🐛 43 | 🌐 Python | 📅 2026-09-25.
+* [Burner email providers](https://github.com/wesbos/burner-email-providers) ⭐ 1,193 | 🐛 26 | 🌐 JavaScript | 📅 2026-07-20 - 🆓 A list of temporary email providers. And its [derivative Python module](https://github.com/disposable-email-domains/disposable-email-domains) ⭐ 5,529 | 🐛 44 | 🌐 Python | 📅 2026-09-26.
 
 * [`gman`](https://github.com/benbalter/gman) ⭐ 170 | 🐛 9 | 🌐 Ruby | 📅 2026-09-16 - 🆓 “A Ruby gem to check if the owner of a given email address or website is working for THE MAN (a.k.a verifies government domains).” Good resource to hunt for potential government customers in your user base.
 
@@ -670,7 +670,7 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 
 As the guardian of user's data, the IAM stack is deeply bounded by the respect of privacy.
 
-* [Paper we love: Privacy](https://github.com/papers-we-love/papers-we-love/tree/master/privacy) ⭐ 109,987 | 🐛 4 | 🌐 Shell | 📅 2026-09-17 - A collection of scientific studies of schemes providing privacy by design.
+* [Paper we love: Privacy](https://github.com/papers-we-love/papers-we-love/tree/master/privacy) ⭐ 110,011 | 🐛 5 | 🌐 Shell | 📅 2026-09-17 - A collection of scientific studies of schemes providing privacy by design.
 
 * [Email marketing regulations around the world](https://github.com/threeheartsdigital/email-marketing-regulations) ⭐ 470 | 🐛 0 | 📅 2026-07-23 - 🆓 As the world becomes increasingly connected, the email marketing regulation landscape becomes more and more complex.
 
@@ -682,7 +682,7 @@ As the guardian of user's data, the IAM stack is deeply bounded by the respect o
 
 As a central repository of user data, the IAM stack stakeholders have to prevent any leakage of business and customer data. To allow for internal analytics, anonymization is required.
 
-* [Presidio](https://github.com/data-privacy-stack/presidio) ⭐ 11,038 | 🐛 146 | 🌐 Python | 📅 2026-09-24 - 🆓 Context aware, pluggable and customizable data protection and PII data anonymization service for text and images.
+* [Presidio](https://github.com/data-privacy-stack/presidio) ⭐ 11,045 | 🐛 147 | 🌐 Python | 📅 2026-09-24 - 🆓 Context aware, pluggable and customizable data protection and PII data anonymization service for text and images.
 
 * [The False Allure of Hashing for Anonymization](https://web.archive.org/web/20220927004103/https://goteleport.com/blog/hashing-for-anonymization/) - Hashing is not sufficient for anonymization no. But still it is good enough for pseudonymization (which is allowed by the GDPR).
 
@@ -756,7 +756,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 
 ## Footnotes
 
-The [header image](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg) ⭐ 2,286 | 🐛 2 | 📅 2026-09-23 is based on a modified [photo](https://web.archive.org/web/20230919012225/https://unsplash.com/photos/2LowviVHZ-E) by [Ben Sweet](https://web.archive.org/web/20260303063416/https://unsplash.com/@benjaminsweet).
+The [header image](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg) ⭐ 2,288 | 🐛 2 | 📅 2026-09-23 is based on a modified [photo](https://web.archive.org/web/20230919012225/https://unsplash.com/photos/2LowviVHZ-E) by [Ben Sweet](https://web.archive.org/web/20260303063416/https://unsplash.com/@benjaminsweet).
 
 <!--lint disable no-undefined-references-->
 
@@ -764,4 +764,4 @@ The [header image](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awe
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-25._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-26._
